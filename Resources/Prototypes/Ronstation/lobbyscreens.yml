@@ -1,0 +1,7 @@
+- type: lobbyBackground
+  id: Hallway
+  background: /Textures/Ronstation/LobbyScreens/hallway.webp
+
+- type: lobbyBackground
+  id: Error
+  background: /Textures/Ronstation/LobbyScreens/error.webp
