@@ -359,7 +359,7 @@
 - type: tile
   id: FloorWhiteMono
   name: tiles-white-floor-mono
-  sprite: /Textures/Tiles/white_mono.png
+  sprite: /Textures/_Ronstation/Tiles/white_mono.png
   variants: 4
   placementVariants:
   - 1.0
