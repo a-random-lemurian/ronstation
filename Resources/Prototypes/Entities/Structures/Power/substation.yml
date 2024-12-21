@@ -45,7 +45,7 @@
     sourceNode: input
     loadNode: output
     collectionName: substation
-    sprite: Structures/Power/substation.rsi
+    sprite: _Ronstation/Structures/Power/substation.rsi
     state: substation_static
   - type: BatteryCharger
     voltage: High
