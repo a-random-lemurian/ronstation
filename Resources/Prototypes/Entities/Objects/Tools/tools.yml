@@ -440,7 +440,7 @@
           path: /Audio/Items/change_drill.ogg
       - behavior: Anchoring
         sprite:
-          sprite: _Ronstation/bjects/Tools/drill.rsi
+          sprite: _Ronstation/Objects/Tools/drill.rsi
           state: drill_bolt
         useSound:
           path: /Audio/Items/drill_use.ogg
