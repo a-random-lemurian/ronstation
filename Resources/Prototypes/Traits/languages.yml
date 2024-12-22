@@ -49,7 +49,7 @@
         - Tradeband
 
 - type: trait
-  id: Gutter
+  id: Freespeak
   category: TraitsSpeechLanguages
   points: 0
   requirements:
@@ -58,9 +58,9 @@
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
-        - Gutter
+        - Freespeak
       languagesUnderstood:
-        - Gutter
+        - Freespeak
 
 - type: trait
   id: Elyran
