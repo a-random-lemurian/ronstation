@@ -35,12 +35,11 @@ language-Tradeband-description =
     Descended from latin and romance languages of old Earth - Tradeband remains the main tongue of the upper class of humanity.
     The language sounds elegant and well structured to most ears. It remains in popular use with traders - diplomats - and those seeking to hold onto a piece of a romantic past.
 
-language-Freespeak-name = Freespeak
-language-Freespeak-description =
+language-Gutter-name = Gutter
+language-Gutter-description =
     A language of renegades and frontiersmen descending from various languages from Earth-- like Hindi,
     combined into a multi-rooted jumble that sounds incoherent or even barbarian to non-native speakers.
     This language is the only common cultural identity for humans in the frontier. Speaking this language in itself boldly declares the speaker a free spirit.
-    It is often called 'Gutter' by Alliance citizens.
 
 language-Elyran-name = Elyran Standard
 language-Elyran-description =
