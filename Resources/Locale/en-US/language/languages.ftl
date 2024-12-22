@@ -44,7 +44,7 @@ language-Gutter-description =
 language-Elyran-name = Elyran Standard
 language-Elyran-description =
     Elyran Standard is the official tongue of the Republic of Elyra. Constructed using elements of Farsi - Arabic - and Turkish.
-    Influence from all three of these languages can be seen throughout its grammar and vocabulary.
+    Influenced from all three of these languages can be seen throughout its grammar and vocabulary.
 
 language-Canilunzt-name = Canilunzt
 language-Canilunzt-description =
@@ -68,6 +68,12 @@ language-ValyrianStandard-description =
     A language descended from eastern european languages of old earth - Valyrian Standard is the commonly spoken tongue of Harpies brought up on their homeworld of Valyrian 4b
     It is rarely spoken outside of the worlds of its native speakers, and has in modern times been supplanted by the 'Conlangs of the Sol Alliance.
     Its speakers are those who wish to uphold the traditions and beliefs of ancient peoples from before the colonial era.
+
+language-Vox-name = Vox-pidgin
+language-Vox-description =
+    The mother tongue of the Vox, which inhabit various ships in the Shoal,
+    composed of shrieking, hissing and grunts.
+    Its origins are mostly unknown, only having small bits of information in manuscripts, diaries, and dictionaries.
 
 language-Cat-name = Cat
 language-Cat-description = Meow
