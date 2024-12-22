@@ -44,7 +44,7 @@ language-Gutter-description =
 language-Elyran-name = Elyran Standard
 language-Elyran-description =
     Elyran Standard is the official tongue of the Republic of Elyra. Constructed using elements of Farsi - Arabic - and Turkish.
-    Influenced from all three of these languages can be seen throughout its grammar and vocabulary.
+    Influence from all three of these languages can be seen throughout its grammar and vocabulary.
 
 language-Canilunzt-name = Canilunzt
 language-Canilunzt-description =
