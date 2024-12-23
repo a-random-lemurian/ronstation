@@ -1307,7 +1307,7 @@
 - type: tile
   id: FloorShuttleBlack
   name: tiles-black-shuttle-floor
-  sprite: /Textures/_Ronstation/Tiles/shuttleblack.png
+  sprite: /Textures/Tiles/shuttleblack.png #Ronstation's shuttle black texture is having problems.
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
