@@ -130,3 +130,8 @@ language-Eldritch-name = Eldritch
 language-Eldritch-description =
     A language that is considered to be long forgotten - now the only speakers of this profaned tongue of screeches and
     mumbles are the followers of an ancient God of Blood.
+
+language-Codespeak-name = Codespeak
+language-Codespeak-description =
+    Used by the Syndicate to convey information through a complex array of codewords,
+    sounds like random words and concepts to those who aren't part of the blood-reds. 
