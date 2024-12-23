@@ -66,7 +66,7 @@
 - type: tile
   id: PlatingSnow
   name: tiles-snow-plating
-  sprite: /Textures/Tiles/snow_plating.png #Not in the snow planet RSI because it doesn't have any metadata. Should probably be moved to its own folder later.
+  sprite: /Textures/_Ronstaiton/Tiles/snow_plating.png #Not in the snow planet RSI because it doesn't have any metadata. Should probably be moved to its own folder later.
   baseTurf: Lattice
   isSubfloor: true
   deconstructTools: [ Axing ]
@@ -78,7 +78,7 @@
 - type: tile
   id: Lattice
   name: tiles-lattice
-  sprite: /Textures/Tiles/lattice.png
+  sprite: /Textures/_Ronstaiton/Tiles/lattice.png
   baseTurf: Space
   isSubfloor: true
   deconstructTools: [ Cutting ]
@@ -93,7 +93,7 @@
 - type: tile
   id: TrainLattice
   name: tiles-lattice-train
-  sprite: /Textures/Tiles/latticeTrain.png
+  sprite: /Textures/_Ronstaiton/Tiles/latticeTrain.png
   baseTurf: Space
   isSubfloor: true
   deconstructTools: [ Cutting ]
