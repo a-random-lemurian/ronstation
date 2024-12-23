@@ -1,11 +1,5 @@
 language-Universal-name = Universal
-language-Universal-description = 
-    I am a great soft jelly thing.
-    Smoothly rounded, with no mouth, with pulsing white holes filled by fog where my eyes used to be.
-    Rubbery appendages that were once my arms
-    bulks rounding down into legless humps of soft slippery matter.
-    I leave a moist trail when I move. Blotches of diseased
-    evil gray come and go on my surface, as though light is being beamed from within.
+language-Universal-description = What are you?
 
 language-SolCommon-name = Sol common
 language-SolCommon-description =
