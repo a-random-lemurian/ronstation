@@ -1281,7 +1281,7 @@
 - type: tile
   id: FloorShuttleWhite
   name: tiles-white-shuttle-floor
-  sprite: /Textures/Tiles/shuttlewhite.png
+  sprite: /Textures/_Ronstation/Tiles/shuttlewhite.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -1294,7 +1294,7 @@
 - type: tile
   id: FloorShuttleGrey
   name: tiles-grey-shuttle-floor
-  sprite: /Textures/Tiles/shuttlegrey.png
+  sprite: /Textures/_Ronstation/Tiles/shuttlegrey.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -1307,7 +1307,7 @@
 - type: tile
   id: FloorShuttleBlack
   name: tiles-black-shuttle-floor
-  sprite: /Textures/Tiles/shuttleblack.png
+  sprite: /Textures/_Ronstation/Tiles/shuttleblack.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -1320,7 +1320,7 @@
 - type: tile
   id: FloorShuttleBlue
   name: tiles-blue-shuttle-floor
-  sprite: /Textures/Tiles/shuttleblue.png
+  sprite: /Textures/_Ronstation/Tiles/shuttleblue.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -1333,7 +1333,7 @@
 - type: tile
   id: FloorShuttleOrange
   name: tiles-orange-shuttle-floor
-  sprite: /Textures/Tiles/shuttleorange.png
+  sprite: /Textures/_Ronstation/Tiles/shuttleorange.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -1346,7 +1346,7 @@
 - type: tile
   id: FloorShuttlePurple
   name: tiles-purple-shuttle-floor
-  sprite: /Textures/Tiles/shuttlepurple.png
+  sprite: /Textures/_Ronstation/Tiles/shuttlepurple.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -1359,7 +1359,7 @@
 - type: tile
   id: FloorShuttleRed
   name: tiles-red-shuttle-floor
-  sprite: /Textures/Tiles/shuttlered.png
+  sprite: /Textures/_Ronstation/Tiles/shuttlered.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -1439,7 +1439,7 @@
 - type: tile
   id: FloorGreenCircuit
   name: tiles-green-circuit-floor
-  sprite: /Textures/Tiles/green_circuit.png
+  sprite: /Textures/_Ronstation/Tiles/green_circuit.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -1452,7 +1452,7 @@
 - type: tile
   id: FloorBlueCircuit
   name: tiles-blue-circuit-floor
-  sprite: /Textures/Tiles/blue_circuit.png
+  sprite: /Textures/_Ronstation/Tiles/blue_circuit.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
