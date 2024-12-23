@@ -36,7 +36,7 @@
     channels:
     - Security
   - type: Sprite
-    sprite: _Ronstation/Objects/Devices/securityhandy.rsi
+    sprite: Objects/Devices/securityhandy.rsi
   - type: Item
-    sprite: _Ronstation/Objects/Devices/securityhandy.rsi
+    sprite: Objects/Devices/securityhandy.rsi
     heldPrefix: walkietalkie
