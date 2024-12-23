@@ -78,7 +78,7 @@
 - type: tile
   id: Lattice
   name: tiles-lattice
-  sprite: /Textures/_Ronstaiton/Tiles/lattice.png
+  sprite: /Textures/Tiles/lattice.png
   baseTurf: Space
   isSubfloor: true
   deconstructTools: [ Cutting ]
@@ -93,7 +93,7 @@
 - type: tile
   id: TrainLattice
   name: tiles-lattice-train
-  sprite: /Textures/_Ronstaiton/Tiles/latticeTrain.png
+  sprite: /Textures/Tiles/latticeTrain.png
   baseTurf: Space
   isSubfloor: true
   deconstructTools: [ Cutting ]
