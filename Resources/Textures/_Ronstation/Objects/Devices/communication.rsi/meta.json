@@ -8,13 +8,21 @@
   },
   "states": [
     {
-      "name": "beacon",
-      "delays": [
-        [
-          1.8,
-          0.1
-        ]
-      ]
+      "name": "beacon_dead"
+    },
+    {
+      "name": "signaller"
+    },
+    {
+      "name": "signaller-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "signaller-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "radio"
     },
     {
       "name": "radio-inhand-right",
