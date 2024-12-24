@@ -84,11 +84,11 @@
   description: A standard cylindrical gas tank for nitrogen.
   components:
   - type: Sprite
-    sprite: Objects/Tanks/red.rsi
+    sprite: _Ronstation/Objects/Tanks/red.rsi
   - type: Item
-    sprite: Objects/Tanks/red.rsi
+    sprite: _Ronstation/Objects/Tanks/red.rsi
   - type: Clothing
-    sprite: Objects/Tanks/red.rsi
+    sprite: _Ronstation/Objects/Tanks/red.rsi
 
 - type: entity
   parent: GasTankRoundBase
