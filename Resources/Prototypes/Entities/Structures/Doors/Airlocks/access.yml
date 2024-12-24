@@ -29,7 +29,7 @@
       board: [ DoorElectronicsTheatre ]
 
 - type: entity
-  parent: AirlockService # Ronstation - Chapel is in Service
+  parent: AirlockServiceLocked # Ronstation - Chapel is in Service
   id: AirlockChapelLocked
   suffix: Chapel, Locked
   components:
