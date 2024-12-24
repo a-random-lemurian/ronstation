@@ -3,6 +3,7 @@
   isVisibleLanguage: true
   speech:
     color: "#880808"
+    fontId: NotoSans-Bold
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
