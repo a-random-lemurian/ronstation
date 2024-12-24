@@ -5,9 +5,7 @@
     color: "#880808"
     fontId: NotoSans-Bold
   obfuscation:
-    !type:SyllableObfuscation
-    minSyllables: 1
-    maxSyllables: 5
+    !type:ReplacementObfuscation
     replacement:
     - adorable
     - adventurous
