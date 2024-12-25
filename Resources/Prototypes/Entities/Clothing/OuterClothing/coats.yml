@@ -13,7 +13,7 @@
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
   id: ClothingOuterCoatDetective
   name: detective trenchcoat
-  description: A rugged canvas trenchcoat, designed and created by TX Fabrication Corp. Wearing it makes you feel for the plight of the Tibetans.
+  description: An 18th-century-styled multi-purpose trenchcoat. Someone who wears this means serious business. # Ronstation - redescribed.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/detective.rsi
