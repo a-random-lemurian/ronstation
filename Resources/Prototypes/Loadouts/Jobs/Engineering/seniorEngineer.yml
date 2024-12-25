@@ -22,11 +22,14 @@
   cost: 0
   exclusive: true
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerBelt
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - ClothingBeltUtilityEngineering
 
@@ -36,11 +39,14 @@
   cost: 0
   exclusive: true
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerBelt
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - ClothingBeltUtilityAtmos
 
@@ -52,11 +58,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - BoxInflatable
 
@@ -65,11 +74,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - MedkitOxygenFilled
 
@@ -78,11 +90,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - RCD
     - RCDAmmo
@@ -92,11 +107,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 1
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - RCDAmmo
 
@@ -105,11 +123,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 1
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - RCDAmmo
 
@@ -118,11 +139,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - PowerDrill
 
@@ -131,11 +155,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 1
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetSteel
 
@@ -144,11 +171,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetSteel10
 
@@ -157,11 +187,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 1
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetPlasteel
 
@@ -170,11 +203,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetPlasteel10
 
@@ -183,11 +219,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 1
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetGlass
 
@@ -196,11 +235,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetGlass10
 
@@ -209,11 +251,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 1
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - MaterialWoodPlank
 
@@ -222,11 +267,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - MaterialWoodPlank10
 
@@ -235,11 +283,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 2
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetRGlass
 
@@ -248,11 +299,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetRGlass10
 
@@ -261,11 +315,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 2
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetUGlass
 
@@ -274,11 +331,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetUGlass10
 
@@ -287,11 +347,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 2
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetRUGlass
 
@@ -300,11 +363,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetRUGlass10
 
@@ -313,11 +379,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 2
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetPGlass
 
@@ -326,11 +395,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetPGlass10
 
@@ -339,11 +411,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 2
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetRPGlass
 
@@ -352,11 +427,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetRPGlass10
 
@@ -365,11 +443,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 2
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetClockworkGlass
 
@@ -378,11 +459,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetClockworkGlass10
 
@@ -391,11 +475,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 1
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetPlastic
 
@@ -404,11 +491,14 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - SheetPlastic10
 
@@ -439,7 +529,7 @@
       group: LoadoutSeniorEngineerUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - ClothingUniformJumpskirtSeniorEngineer
 
@@ -453,6 +543,6 @@
       group: LoadoutSeniorEngineerUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - SeniorEngineer
+        - StationEngineer
   items:
     - ClothingUniformJumpsuitSeniorEngineer
