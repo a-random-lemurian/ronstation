@@ -61,7 +61,7 @@
           #science
             Borg: [ 2, 3 ]
             Chaplain: [ 1, 1 ]
-            ForensicMantis: [ 1, 1 ]
+          #  ForensicMantis: [ 1, 1 ]
             ResearchAssistant: [ 2, 3 ]
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 3, 5 ]

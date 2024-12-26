@@ -26,7 +26,7 @@
             Lawyer: [ 1, 1 ]
             Bartender: [ 1, 2 ]
             Botanist: [ 1, 2 ]
-            MartialArtist: [ 2, 3 ]
+          #  MartialArtist: [ 2, 3 ]
             Chef: [ 1, 2 ]
             Clown: [ 1, 1 ]
             Janitor: [ 1, 2 ]
@@ -59,7 +59,7 @@
             Scientist: [ 2, 4 ]
             ResearchAssistant: [ 2, 3 ]
             Chaplain: [ 1, 1 ]
-            ForensicMantis: [ 1, 1 ]
+          #  ForensicMantis: [ 1, 1 ]
             Borg: [ 2, 2 ]
           #Logistics
             Quartermaster: [ 1, 1 ]
