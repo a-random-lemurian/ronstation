@@ -14,7 +14,7 @@
   canBeAntag: false
   icon: "JobIconPrisonGuard"
   supervisors: job-supervisors-warden
-  setPreference: false # Ronstation - Role rework.
+  setPreference: true
 #  whitelistRequired: true
   access:
   - Security

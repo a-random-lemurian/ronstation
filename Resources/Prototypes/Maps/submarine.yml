@@ -53,7 +53,7 @@
             HeadOfPersonnel: [ 1, 1 ]
             Janitor: [ 2, 3 ]
             Lawyer: [ 2, 2 ]
-          #  MartialArtist: [ 2, 2 ]
+            MartialArtist: [ 2, 2 ]
             Mime: [ 1, 2 ]
             Musician: [ 2, 2 ]
             Reporter: [ 1, 2 ]
@@ -62,7 +62,7 @@
           #science
             MedicalBorg: [ 2, 3 ]
             Chaplain: [ 1, 1 ]
-          #  ForensicMantis: [ 1, 1 ]
+            ForensicMantis: [ 1, 1 ]
             ResearchAssistant: [ 2, 3 ]
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 3, 4 ]

@@ -291,20 +291,20 @@ character-item-group-LoadoutNoviciateOuter = Research Assistant Outerwear
 character-item-group-LoadoutNoviciateShoes = Research Assistant Shoes
 character-item-group-LoadoutNoviciateUniforms = Research Assistant Uniforms
 
-# Epistemics - Psionic Mantis
-character-item-group-LoadoutPsionicMantisBackpacks = Psionic Mantis Backpacks
-character-item-group-LoadoutPsionicMantisBelt = Psionic Mantis Belt
-character-item-group-LoadoutPsionicMantisEars = Psionic Mantis Ears
-character-item-group-LoadoutPsionicMantisEquipment = Psionic Mantis Equipment
-character-item-group-LoadoutPsionicMantisEyes = Psionic Mantis Eyewear
-character-item-group-LoadoutPsionicMantisGloves = Psionic Mantis Gloves
-character-item-group-LoadoutPsionicMantisHead = Psionic Mantis Headgear
-character-item-group-LoadoutPsionicMantisId = Psionic Mantis Id
-character-item-group-LoadoutPsionicMantisNeck = Psionic Mantis Neckwear
-character-item-group-LoadoutPsionicMantisMask = Psionic Mantis Masks
-character-item-group-LoadoutPsionicMantisOuter = Psionic Mantis Outerwear
-character-item-group-LoadoutPsionicMantisShoes = Psionic Mantis Shoes
-character-item-group-LoadoutPsionicMantisUniforms = Psionic Mantis Uniforms
+# Command - Liaison Mantis
+character-item-group-LoadoutPsionicMantisBackpacks = Liaison Mantis Backpacks
+character-item-group-LoadoutPsionicMantisBelt = Liaison Mantis Belt
+character-item-group-LoadoutPsionicMantisEars = Liaison Mantis Ears
+character-item-group-LoadoutPsionicMantisEquipment = Liaison Mantis Equipment
+character-item-group-LoadoutPsionicMantisEyes = Liaison Mantis Eyewear
+character-item-group-LoadoutPsionicMantisGloves = Liaison Mantis Gloves
+character-item-group-LoadoutPsionicMantisHead = Liaison Mantis Headgear
+character-item-group-LoadoutPsionicMantisId = Liaison Mantis Id
+character-item-group-LoadoutPsionicMantisNeck = Liaison Mantis Neckwear
+character-item-group-LoadoutPsionicMantisMask = Liaison Mantis Masks
+character-item-group-LoadoutPsionicMantisOuter = Liaison Mantis Outerwear
+character-item-group-LoadoutPsionicMantisShoes = Liaison Mantis Shoes
+character-item-group-LoadoutPsionicMantisUniforms = Liaison Mantis Uniforms
 
 # Cargo
 character-item-group-LoadoutLogisticsBackpacks = Cargo Backpacks
