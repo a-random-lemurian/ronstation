@@ -9,22 +9,22 @@
       department: Science # Ronstation - Science Department replacing Epistemics
       min: 54000 # DeltaV - 15 hours
     - !type:CharacterOverallTimeRequirement
-      min: 72000 # DeltaV - 20 hours
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterSpeciesRequirement
-          inverted: true
-          species:
-            - IPC
-        - !type:CharacterTraitRequirement
-          traits:
-            - AnomalousPositronics
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterSpeciesRequirement
-          inverted: true
-          species:
-            - Shadowkin
+      min: 126000 # Ronstation - 35 hours
+    #- !type:CharacterLogicOrRequirement
+    #  requirements:
+    #    - !type:CharacterSpeciesRequirement
+    #      inverted: true
+    #      species:
+    #        - IPC
+    #    - !type:CharacterTraitRequirement
+    #      traits:
+    #        - AnomalousPositronics
+    #- !type:CharacterLogicOrRequirement # Ronstation - Unneeded speciesism.
+    #  requirements:
+    #    - !type:CharacterSpeciesRequirement
+    #      inverted: true
+    #      species:
+    #        - Shadowkin
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"
@@ -37,7 +37,7 @@
   - Maintenance
   - ResearchDirector
   - Mantis # DeltaV - Mantis, see Resources/Prototypes/DeltaV/Access/epistemics.yml
-  - Chapel # DeltaV - Chaplain is in Epistemics
+  #- Chapel # Ronstation - Chaplain is in Service
   - Cryogenics
   special: # Nyanotrasen - Mystagogue can use the Bible
   #- !type:AddComponentSpecial
