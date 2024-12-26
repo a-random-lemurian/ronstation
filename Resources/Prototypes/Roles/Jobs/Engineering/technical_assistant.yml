@@ -9,7 +9,7 @@
       min: 14400 # 4 hours
   - !type:CharacterDepartmentTimeRequirement # Ronstation - Readds time limit
       department: Engineering
-      time: 54000 #15 hrs
+      min: 54000 #15 hrs
       inverted: true # stop playing intern if you're good at engineering!
   startingGear: TechnicalAssistantGear
   icon: "JobIconTechnicalAssistant"

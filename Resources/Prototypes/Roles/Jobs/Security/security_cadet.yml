@@ -8,7 +8,7 @@
       min: 14400 # DeltaV - 4 hours
     - !type:CharacterDepartmentTimeRequirement # Ronstation - Readds time limit
       department: Security
-      time: 54000 #15 hrs
+      min: 54000 #15 hrs
       inverted: true # stop playing intern if you're good at security!
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
