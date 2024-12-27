@@ -3,7 +3,7 @@
   name: job-name-chief-justice
   description: job-description-chief-justice
   playTimeTracker: JobChiefJustice
-  setPreference: false # Ronstation - Unneeded; captain or other head-of-staff can become judge.
+  setPreference: true
   requirements:
     - !type:CharacterPlaytimeRequirement
       tracker: JobClerk
