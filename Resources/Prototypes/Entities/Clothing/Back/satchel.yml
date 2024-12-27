@@ -99,7 +99,7 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelScience
-  name: epistemics satchel # DeltaV - Epistemics Department replacing Science
+  name: science satchel # DeltaV - Science Department replacing Epistemics
   description: Useful for holding research materials.
   components:
   - type: Sprite
@@ -126,11 +126,11 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelBrigmedic
-  name: corpsman satchel # DeltaV - rename brigmedic to corpsman
+  name: brigmedic satchel # Ronstation - rename corpsman to brigmedic
   description: A sterile satchel for medical related needs.
   components:
   - type: Sprite
-    sprite: DeltaV/Clothing/Back/Satchels/brigmedic.rsi # DeltaV - resprite
+    sprite: Clothing/Back/Satchels/brigmedic.rsi # Ronstation - resprite
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -153,8 +153,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelCargo
-  name: logistics satchel # DeltaV - Logistics Department replacing Cargo
-  description: A robust satchel for stealing logistics's loot. # DeltaV - Logistics Department replacing Cargo
+  name: Cargo satchel # Ronstation - Cargo Department replacing Logistics
+  description: A robust satchel for stealing cargo's loot. # Ronstation - Cargo Department replacing Logistics
   components:
     - type: Sprite
       sprite: Clothing/Back/Satchels/cargo.rsi
