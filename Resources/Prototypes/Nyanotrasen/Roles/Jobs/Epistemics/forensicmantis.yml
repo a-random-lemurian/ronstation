@@ -9,10 +9,10 @@
       min: 18000 # 5 hours.
     - !type:DepartmentTimeRequirement
       department: Command # Ronstation - Forensic Mantis replaced with Liaison Mantis.
-      min: 3600
+      min: 0 #3600
     - !type:CharacterPlaytimeRequirement
       tracker: JobDetective # Ronstation - Liaison Mantis is inspector.
-      min: 18000 #Ronstation - 5 hours.
+      min: 0 #18000 #Ronstation - 5 hours.
   #  - !type:CharacterLogicOrRequirement
   #    requirements:
   #      - !type:CharacterSpeciesRequirement
@@ -59,7 +59,7 @@
     head: ClothingHeadHatFezMantis
     id: ForensicMantisPDA
     eyes: ClothingEyesGlassesSunglasses
-    ears: ClothingHeadsetScience # Ronstation - Mantis is part of Command
+    ears: ClothingHeadsetCommand # Ronstation - Mantis is part of Command
     gloves: ClothingHandsGlovesColorWhite
     outerClothing: ClothingOuterCoatMantis
     belt: ClothingBeltMantis

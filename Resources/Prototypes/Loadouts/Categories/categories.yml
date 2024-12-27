@@ -51,6 +51,7 @@
     - JobsCommandAUncategorized
     - JobsCommandCaptain
     - JobsCommandHeadOfPersonnel
+    - JobsEpistemicsPsionicMantis # Ronstation - Mantis is now in command.
 
 - type: loadoutCategory
   id: JobsCommandAUncategorized
@@ -102,7 +103,7 @@
     - JobsEpistemicsMystagogue
     - JobsEpistemicsMystic
     - JobsEpistemicsNoviciate
-    - JobsEpistemicsPsionicMantis
+  #  - JobsEpistemicsPsionicMantis # Ronstation - Mantis is now in command.
 
 - type: loadoutCategory
   id: JobsEpistemicsAAUncategorized
