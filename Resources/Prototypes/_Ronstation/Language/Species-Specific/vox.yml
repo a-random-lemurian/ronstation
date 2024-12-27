@@ -1,0 +1,32 @@
+- type: language
+  id: Vox
+  isVisibleLanguage: true
+  speech:
+    color: "#6b366b"
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 3
+    replacement:
+    - ti
+    - hi
+    - ki
+    - ta
+    - ha
+    - ka
+    - ya
+    - yi
+    - chi
+    - cha
+    - kah
+    - SKRE
+    - AHK
+    - EHK
+    - RAWK
+    - KRA
+    - AAA
+    - EEE
+    - KI
+    - II
+    - KRI
+    - KA
