@@ -67,5 +67,3 @@ reagent-desc-bananium = A yellow radioactive organic solid.
 reagent-name-zinc = zinc
 reagent-desc-zinc = A silvery, brittle metal, often used in batteries to carry charge. 
 
-reagent-name-bromine = bromine
-reagent-desc-bromine = A brownish-red in color, gaseous carcinogenic. Highly reactive.
