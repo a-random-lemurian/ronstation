@@ -108,7 +108,7 @@
   - type: LanguageKnowledge
     speaks:
     - Vox
-    - SolCommon
+    - TauCetiBasic
     understands:
     - Vox
     - SolCommon
