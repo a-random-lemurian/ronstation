@@ -2,10 +2,10 @@
 
 species-name-human = Human
 species-name-dwarf = Dwarf
-species-name-reptilian = Unathi
+species-name-reptilian = Reptilian
 species-name-slime = Slime Person
 species-name-diona = Diona
-species-name-arachnid = Reptilian
+species-name-arachnid = Arachnid
 species-name-arachne = Arachne
 species-name-moth = Moth Person
 species-name-skeleton = Skeleton
