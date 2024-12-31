@@ -27,7 +27,7 @@ loadout-category-JobsEngineeringSeniorEngineer = Senior Engineer
 loadout-category-JobsEngineeringStationEngineer = Station Engineer
 loadout-category-JobsEngineeringTechnicalAssistant = Technical Assistant
 
-# Epistemics
+# Science
 loadout-category-JobsEpistemics = Science
 loadout-category-JobsEpistemicsAAUncategorized = All Scientists
 loadout-category-JobsEpistemicsAcolyte = Scientist
@@ -37,7 +37,7 @@ loadout-category-JobsEpistemicsGolemancer = Roboticist
 loadout-category-JobsEpistemicsMystagogue = Research Director
 loadout-category-JobsEpistemicsMystic = Senior Scientist
 loadout-category-JobsEpistemicsNoviciate = Research Assistant
-loadout-category-JobsEpistemicsPsionicMantis = Liaison Mantis
+loadout-category-JobsEpistemicsPsionicMantis = Praying Mantis
 
 # Logistics
 loadout-category-JobsLogistics = Logistics

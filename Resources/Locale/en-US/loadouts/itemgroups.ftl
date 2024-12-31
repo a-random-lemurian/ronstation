@@ -291,20 +291,20 @@ character-item-group-LoadoutNoviciateOuter = Research Assistant Outerwear
 character-item-group-LoadoutNoviciateShoes = Research Assistant Shoes
 character-item-group-LoadoutNoviciateUniforms = Research Assistant Uniforms
 
-# Command - Liaison Mantis
-character-item-group-LoadoutPsionicMantisBackpacks = Liaison Mantis Backpacks
-character-item-group-LoadoutPsionicMantisBelt = Liaison Mantis Belt
-character-item-group-LoadoutPsionicMantisEars = Liaison Mantis Ears
-character-item-group-LoadoutPsionicMantisEquipment = Liaison Mantis Equipment
-character-item-group-LoadoutPsionicMantisEyes = Liaison Mantis Eyewear
-character-item-group-LoadoutPsionicMantisGloves = Liaison Mantis Gloves
-character-item-group-LoadoutPsionicMantisHead = Liaison Mantis Headgear
-character-item-group-LoadoutPsionicMantisId = Liaison Mantis Id
-character-item-group-LoadoutPsionicMantisNeck = Liaison Mantis Neckwear
-character-item-group-LoadoutPsionicMantisMask = Liaison Mantis Masks
-character-item-group-LoadoutPsionicMantisOuter = Liaison Mantis Outerwear
-character-item-group-LoadoutPsionicMantisShoes = Liaison Mantis Shoes
-character-item-group-LoadoutPsionicMantisUniforms = Liaison Mantis Uniforms
+# Science - Praying Mantis
+character-item-group-LoadoutPsionicMantisBackpacks = Praying Mantis Backpacks
+character-item-group-LoadoutPsionicMantisBelt = Praying Mantis Belt
+character-item-group-LoadoutPsionicMantisEars = Praying Mantis Ears
+character-item-group-LoadoutPsionicMantisEquipment = Praying Mantis Equipment
+character-item-group-LoadoutPsionicMantisEyes = Praying Mantis Eyewear
+character-item-group-LoadoutPsionicMantisGloves = Praying Mantis Gloves
+character-item-group-LoadoutPsionicMantisHead = Praying Mantis Headgear
+character-item-group-LoadoutPsionicMantisId = Praying Mantis Id
+character-item-group-LoadoutPsionicMantisNeck = Praying Mantis Neckwear
+character-item-group-LoadoutPsionicMantisMask = Praying Mantis Masks
+character-item-group-LoadoutPsionicMantisOuter = Praying Mantis Outerwear
+character-item-group-LoadoutPsionicMantisShoes = Praying Mantis Shoes
+character-item-group-LoadoutPsionicMantisUniforms = Praying Mantis Uniforms
 
 # Cargo
 character-item-group-LoadoutLogisticsBackpacks = Cargo Backpacks
