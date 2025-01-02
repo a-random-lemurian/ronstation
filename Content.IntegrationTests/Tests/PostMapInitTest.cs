@@ -66,7 +66,8 @@ namespace Content.IntegrationTests.Tests
             "Gax",
             "Rad",
             "Europa",
-            "Saltern-2" //Ronstation
+            "Saltern-2", //Ronstation
+            "Omega-Lul" //Ronstation
         };
 
         /// <summary>
