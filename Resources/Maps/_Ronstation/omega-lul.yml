@@ -6223,8 +6223,6 @@ entities:
       pos: 26.5,-8.5
       parent: 4812
     - type: DeviceList
-      configurators:
-      - invalid
       devices:
       - 13725
       - 13726
@@ -39231,8 +39229,6 @@ entities:
       pos: -19.5,13.5
       parent: 4812
     - type: DeviceList
-      configurators:
-      - invalid
       devices:
       - 12208
       - 12204
@@ -39422,8 +39418,6 @@ entities:
       pos: 20.5,-1.5
       parent: 4812
     - type: DeviceList
-      configurators:
-      - invalid
       devices:
       - 12277
       - 4424
