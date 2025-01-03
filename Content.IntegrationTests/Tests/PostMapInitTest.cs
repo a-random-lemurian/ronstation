@@ -67,7 +67,8 @@ namespace Content.IntegrationTests.Tests
             "Rad",
             "Europa",
             "Saltern-2", //Ronstation
-            "Omega-Lul" //Ronstation
+            "Omega-Lul", //Ronstation
+            "Atlas-B" //Ronstation
         };
 
         /// <summary>
