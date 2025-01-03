@@ -38,7 +38,9 @@
   - Research
   - Maintenance
   - Mantis # DeltaV - Mantis, see Resources/Prototypes/DeltaV/Access/epistemics.yml
-  #special:
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ] # Ronstation - Mantis is science's warden.
   #- !type:AddComponentSpecial
   #  components:
   #  - type: Psionic
