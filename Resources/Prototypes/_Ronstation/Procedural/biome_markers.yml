@@ -1,0 +1,3 @@
+- type: biomeMarkerLayer
+  id: Argocytes
+  prototype: MobArgocyteBarrier
