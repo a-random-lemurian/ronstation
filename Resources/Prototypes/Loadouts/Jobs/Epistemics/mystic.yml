@@ -18,7 +18,7 @@
       group: LoadoutMysticEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - Scientist
+        - SeniorResearcher
   items:
     - BoxCandle
 
@@ -34,7 +34,7 @@
       group: LoadoutMysticEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - Scientist
+        - SeniorResearcher
   items:
     - BoxCandleSmall
 
@@ -50,7 +50,7 @@
       group: LoadoutMysticEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - Scientist
+        - SeniorResearcher
   items:
     - PillCanisterSpaceDrugs
 
@@ -81,7 +81,7 @@
       group: LoadoutMysticOuter
     - !type:CharacterJobRequirement
       jobs:
-        - Scientist
+        - SeniorResearcher
   items:
     - ClothingOuterCoatLabSeniorResearcher
 
@@ -101,7 +101,7 @@
       group: LoadoutMysticUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - Scientist
+        - SeniorResearcher
   items:
     - ClothingUniformJumpskirtSeniorResearcher
 
@@ -118,6 +118,6 @@
       group: LoadoutMysticUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - Scientist
+        - SeniorResearcher
   items:
     - ClothingUniformJumpsuitSeniorResearcher

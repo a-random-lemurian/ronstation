@@ -15,7 +15,7 @@
       group: LoadoutSeniorEngineerBelt
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - ClothingBeltUtility
 
@@ -32,7 +32,7 @@
       group: LoadoutSeniorEngineerBelt
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - ClothingBeltUtilityEngineering
 
@@ -49,7 +49,7 @@
       group: LoadoutSeniorEngineerBelt
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - ClothingBeltUtilityAtmos
 
@@ -68,7 +68,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - BoxInflatable
 
@@ -84,7 +84,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - MedkitOxygenFilled
 
@@ -100,7 +100,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - RCD
     - RCDAmmo
@@ -117,7 +117,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - RCDAmmo
 
@@ -133,7 +133,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - RCDAmmo
 
@@ -149,7 +149,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - PowerDrill
 
@@ -165,7 +165,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetSteel
 
@@ -181,7 +181,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetSteel10
 
@@ -197,7 +197,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetPlasteel
 
@@ -213,7 +213,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetPlasteel10
 
@@ -229,7 +229,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetGlass
 
@@ -245,7 +245,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetGlass10
 
@@ -261,7 +261,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - MaterialWoodPlank
 
@@ -277,7 +277,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - MaterialWoodPlank10
 
@@ -293,7 +293,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetRGlass
 
@@ -309,7 +309,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetRGlass10
 
@@ -325,7 +325,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetUGlass
 
@@ -341,7 +341,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetUGlass10
 
@@ -357,7 +357,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetRUGlass
 
@@ -373,7 +373,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetRUGlass10
 
@@ -389,7 +389,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetPGlass
 
@@ -405,7 +405,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetPGlass10
 
@@ -421,7 +421,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetRPGlass
 
@@ -437,7 +437,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetRPGlass10
 
@@ -453,7 +453,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetClockworkGlass
 
@@ -469,7 +469,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetClockworkGlass10
 
@@ -485,7 +485,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetPlastic
 
@@ -501,7 +501,7 @@
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - SheetPlastic10
 
@@ -532,7 +532,7 @@
       group: LoadoutSeniorEngineerUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - ClothingUniformJumpskirtSeniorEngineer
 
@@ -546,6 +546,6 @@
       group: LoadoutSeniorEngineerUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
+        - SeniorEngineer
   items:
     - ClothingUniformJumpsuitSeniorEngineer

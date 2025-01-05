@@ -26,7 +26,7 @@
 # Uniforms
 - type: loadout
   id: LoadoutSecurityUniformJumpskirtSenior
-  category: JobsSecuritySecurityOfficer
+  category: JobsSecuritySeniorOfficer
   cost: 0
   exclusive: true
   requirements:
@@ -37,13 +37,13 @@
       group: LoadoutSeniorOfficerUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - SecurityOfficer
+        - SeniorOfficer
   items:
     - ClothingUniformJumpskirtSeniorOfficer
 
 - type: loadout
   id: LoadoutSecurityUniformJumpsuitSenior
-  category: JobsSecuritySecurityOfficer
+  category: JobsSecuritySeniorOfficer
   cost: 0
   exclusive: true
   requirements:
@@ -54,6 +54,6 @@
       group: LoadoutSeniorOfficerUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - SecurityOfficer
+        - SeniorOfficer
   items:
     - ClothingUniformJumpsuitSeniorOfficer

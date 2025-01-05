@@ -8,7 +8,7 @@
 # Equipment
 - type: loadout
   id: LoadoutSeniorPhysicianBeltMedical
-  category: JobsMedicalMedicalDoctor
+  category: JobsMedicalSeniorPhysician
   cost: 0
   exclusive: true
   requirements:
@@ -19,13 +19,13 @@
       group: LoadoutSeniorPhysicianBelt
     - !type:CharacterJobRequirement
       jobs:
-        - MedicalDoctor
+        - SeniorPhysician
   items:
     - ClothingBeltMedical
 
 - type: loadout
   id: LoadoutSeniorPhysicianBeltMedicalAdvancedFilled
-  category: JobsMedicalMedicalDoctor
+  category: JobsMedicalSeniorPhysician
   cost: 0
   exclusive: true
   requirements:
@@ -36,7 +36,7 @@
       group: LoadoutSeniorPhysicianBelt
     - !type:CharacterJobRequirement
       jobs:
-        - MedicalDoctor
+        - SeniorPhysician
   items:
     - ClothingBeltMedicalAdvancedFilled
 
@@ -47,7 +47,7 @@
 # Head
 - type: loadout
   id: LoadoutMedicalHeadBeretSeniorPhysician
-  category: JobsMedicalMedicalDoctor
+  category: JobsMedicalSeniorPhysician
   cost: 0
   exclusive: true
   requirements:
@@ -58,7 +58,7 @@
       group: LoadoutSeniorPhysicianHead
     - !type:CharacterJobRequirement
       jobs:
-        - MedicalDoctor
+        - SeniorPhysician
   items:
     - ClothingHeadHatBeretSeniorPhysician
 
@@ -75,7 +75,7 @@
 # Uniforms
 - type: loadout
   id: LoadoutMedicalUniformJumpskirtSenior
-  category: JobsMedicalMedicalDoctor
+  category: JobsMedicalSeniorPhysician
   cost: 0
   exclusive: true
   requirements:
@@ -86,13 +86,13 @@
       group: LoadoutSeniorPhysicianUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - MedicalDoctor
+        - SeniorPhysician
   items:
     - ClothingUniformJumpskirtSeniorPhysician
 
 - type: loadout
   id: LoadoutMedicalUniformJumpsuitSenior
-  category: JobsMedicalMedicalDoctor
+  category: JobsMedicalSeniorPhysician
   cost: 0
   exclusive: true
   requirements:
@@ -103,6 +103,6 @@
       group: LoadoutSeniorPhysicianUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - MedicalDoctor
+        - SeniorPhysician
   items:
     - ClothingUniformJumpsuitSeniorPhysician
