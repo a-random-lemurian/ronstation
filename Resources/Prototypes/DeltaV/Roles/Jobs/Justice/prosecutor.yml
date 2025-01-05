@@ -7,6 +7,9 @@
   requirements:
     - !type:CharacterOverallTimeRequirement
       min: 36000 # 10 hrs
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobLawyer
+      min: 14400 # Ronstation - 4 hours.
     - !type:CharacterWhitelistRequirement # Ronstation - Whitelist requirement because of their highly roleplay-based nature. Lawyers can become prosecutors.
   startingGear: ProsecutorGear
   icon: "JobIconProsecutor"

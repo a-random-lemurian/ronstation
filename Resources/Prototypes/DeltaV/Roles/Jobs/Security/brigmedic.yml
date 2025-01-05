@@ -41,8 +41,8 @@
     shoes: ClothingShoesBootsCombatFilled
     gloves: ClothingHandsGlovesNitrile
     eyes: ClothingEyesHudMedical
-    head: ClothingHeadHatBeretCorpsman
-    id: CorpsmanPDA
+    head: ClothingHeadHatBeretBrigmedic
+    id: BrigmedicPDA
     ears: ClothingHeadsetBrigmedic
     belt: ClothingBeltCorpsmanWebbingFilled
   innerClothingSkirt: ClothingUniformJumpskirtBrigmedic
