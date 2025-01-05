@@ -68,7 +68,8 @@ namespace Content.IntegrationTests.Tests
             "Europa",
             "Saltern-2", //Ronstation
             "Omega-Lul", //Ronstation
-            "Atlas-B" //Ronstation
+            "Atlas-B", //Ronstation
+            "Cluster-Funk" //Ronstation
         };
 
         /// <summary>
