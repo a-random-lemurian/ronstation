@@ -1,6 +1,6 @@
 - type: gameMap
   id: Omega-Lul
-  mapName: 'Omega'
+  mapName: 'Omega-Lul'
   mapPath: /Maps/_Ronstation/omega-lul.yml
   minPlayers: 10
   maxPlayers: 35
