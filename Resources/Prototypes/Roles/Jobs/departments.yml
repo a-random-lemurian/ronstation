@@ -114,7 +114,7 @@
   # - ResearchAssistant # Ronstation - Science Department replacing Epistemics.
    - Chaplain # Ronstation - Role rework.
   # - ForensicMantis # Nyanotrasen - ForensicMantis, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Epistemics/forensicmantis.yml
-  - Librarian # Ronstation - Librarian is also in Service
+   - Librarian # Ronstation - Librarian is also in Service
   # - Roboticist # Ronstation - Science Department replacing Epistemics.
   primary: false
 
