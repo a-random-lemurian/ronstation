@@ -6,7 +6,7 @@
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Science # Ronstation - Science Department replacing Epistemics
+      department: Epistemics
       min: 54000 # DeltaV - 15 hours
     - !type:CharacterOverallTimeRequirement
       min: 126000 # Ronstation - 35 hours

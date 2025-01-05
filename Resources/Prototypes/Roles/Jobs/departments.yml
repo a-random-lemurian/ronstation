@@ -106,16 +106,16 @@
 - type: department
   id: Epistemics # Ronstation - Science Department replacing Epistemics. Science roles moved to Ronstation's departments.yml.
   description: department-Science-description
-  color: "#FFFFFF"
+  color: "#D381C9"
   roles:
-  # - ResearchDirector # Ronstation - Science Department replacing Epistemics.
-  # - SeniorResearcher # Ronstation - Science Department replacing Epistemics.
-  # - Scientist # Ronstation - Science Department replacing Epistemics.
-  # - ResearchAssistant # Ronstation - Science Department replacing Epistemics.
-   - Chaplain # Ronstation - Role rework.
-  # - ForensicMantis # Nyanotrasen - ForensicMantis, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Epistemics/forensicmantis.yml
-   - Librarian # Ronstation - Librarian is also in Service
-  # - Roboticist # Ronstation - Science Department replacing Epistemics.
+   - ResearchDirector # Ronstation - Science Department replacing Epistemics.
+   - SeniorResearcher # Ronstation - Science Department replacing Epistemics.
+   - Scientist # Ronstation - Science Department replacing Epistemics.
+   - ResearchAssistant # Ronstation - Science Department replacing Epistemics.
+  # - Chaplain # Ronstation - Role rework.
+   - ForensicMantis # Nyanotrasen - ForensicMantis, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Epistemics/forensicmantis.yml
+  # - Librarian # Ronstation - Librarian is now in Service
+   - Roboticist # Ronstation - Science Department replacing Epistemics.
   primary: false
 
 - type: department

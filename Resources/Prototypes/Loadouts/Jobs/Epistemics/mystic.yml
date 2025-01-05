@@ -12,7 +12,7 @@
   cost: 0
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Science
+      department: Epistemics
       min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutMysticEquipment
@@ -28,7 +28,7 @@
   cost: 0
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Science
+      department: Epistemics
       min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutMysticEquipment
@@ -44,7 +44,7 @@
   cost: 0
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Science
+      department: Epistemics
       min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutMysticEquipment
@@ -75,7 +75,7 @@
   customColorTint: true
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Science
+      department: Epistemics
       min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutMysticOuter
@@ -95,7 +95,7 @@
   exclusive: true
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Science
+      department: Epistemics
       min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutMysticUniforms
@@ -112,7 +112,7 @@
   exclusive: true
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Science
+      department: Epistemics
       min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutMysticUniforms

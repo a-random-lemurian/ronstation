@@ -8,7 +8,7 @@
 # Equipment
 - type: loadout
   id: LoadoutSeniorPhysicianBeltMedical
-  category: JobsMedicalSeniorPhysician
+  category: JobsMedicalMedicalDoctor
   cost: 0
   exclusive: true
   requirements:
@@ -25,7 +25,7 @@
 
 - type: loadout
   id: LoadoutSeniorPhysicianBeltMedicalAdvancedFilled
-  category: JobsMedicalSeniorPhysician
+  category: JobsMedicalMedicalDoctor
   cost: 0
   exclusive: true
   requirements:
@@ -47,7 +47,7 @@
 # Head
 - type: loadout
   id: LoadoutMedicalHeadBeretSeniorPhysician
-  category: JobsMedicalSeniorPhysician
+  category: JobsMedicalMedicalDoctor
   cost: 0
   exclusive: true
   requirements:
@@ -75,7 +75,7 @@
 # Uniforms
 - type: loadout
   id: LoadoutMedicalUniformJumpskirtSenior
-  category: JobsMedicalSeniorPhysician
+  category: JobsMedicalMedicalDoctor
   cost: 0
   exclusive: true
   requirements:
@@ -92,7 +92,7 @@
 
 - type: loadout
   id: LoadoutMedicalUniformJumpsuitSenior
-  category: JobsMedicalSeniorPhysician
+  category: JobsMedicalMedicalDoctor
   cost: 0
   exclusive: true
   requirements:

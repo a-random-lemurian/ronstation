@@ -8,7 +8,7 @@
     - !type:CharacterOverallTimeRequirement
       min: 18000 # 5 hours.
     - !type:DepartmentTimeRequirement
-      department: Science # Ronstation - Science Department replacing Epistemics
+      department: Epistemics
       min: 18000 # Ronstation - 5 hours.
     - !type:CharacterLogicOrRequirement
   #    requirements:

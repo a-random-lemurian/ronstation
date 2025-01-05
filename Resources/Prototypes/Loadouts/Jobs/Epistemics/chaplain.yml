@@ -60,18 +60,18 @@
   items:
     - BoxCandleSmall
 
-- type: loadout
-  id: LoadoutChaplainPillCanisterSpaceDrugs
-  category: JobsEpistemicsChaplain
-  cost: 0
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutChaplainEquipment
-    - !type:CharacterJobRequirement
-      jobs:
-        - Chaplain
-  items:
-    - PillCanisterSpaceDrugs
+#- type: loadout
+#  id: LoadoutChaplainPillCanisterSpaceDrugs
+#  category: JobsEpistemicsChaplain
+#  cost: 0
+#  requirements:
+#    - !type:CharacterItemGroupRequirement
+#      group: LoadoutChaplainEquipment
+#    - !type:CharacterJobRequirement
+#      jobs:
+#        - Chaplain
+#  items:
+#    - PillCanisterSpaceDrugs
 
 # Eyes
 

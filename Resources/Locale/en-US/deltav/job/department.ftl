@@ -1,4 +1,4 @@
-department-Epistemics = Epistemics
+department-Epistemics = Science
 department-Logistics = Cargo
 department-Justice = Justice
 

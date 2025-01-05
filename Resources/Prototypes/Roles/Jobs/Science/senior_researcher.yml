@@ -6,7 +6,7 @@
   setPreference: false
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Science # Ronstation - Science Department replacing Epistemics
+      department: Epistemics
       min: 216000 #60 hrs
   startingGear: SeniorResearcherGear
   icon: "JobIconSeniorResearcher"
