@@ -22,12 +22,6 @@ language-Elyran-description =
     Elyran Standard is the official tongue of the Republic of Elyra. Constructed using elements of Farsi - Arabic - and Turkish.
     Influence from all three of these languages can be seen throughout its grammar and vocabulary.
 
-language-ValyrianStandard-name = Valyrian Standard
-language-ValyrianStandard-description =
-    A language descended from eastern european languages of old earth - Valyrian Standard is the commonly spoken tongue of Harpies brought up on their homeworld of Valyrian 4b
-    It is rarely spoken outside of the worlds of its native speakers, and has in modern times been supplanted by the 'Conlangs of the Sol Alliance.
-    Its speakers are those who wish to uphold the traditions and beliefs of ancient peoples from before the colonial era.
-
 language-TauCetiBasic-name = Tau-Ceti Basic
 language-TauCetiBasic-description =
     A spiritual successor of Esperanto, established in 2404 in Tau Ceti by Ceti intellectuals.
@@ -69,6 +63,14 @@ language-RobotTalk-description = A language consisting of harsh binary chirps, w
 language-Marish-name = Marish
 language-Marish-description =  An inherently empathetic language, conveying emotions with a single word; spoken effortlessly by Shadowkins, though nearly impossible to learn or replicate.
 
+language-ValyrianStandard-name = Valyrian Standard
+language-ValyrianStandard-description =
+    A language descended from eastern european languages of old earth - Valyrian Standard is the commonly spoken tongue of Harpies brought up on their homeworld of Valyrian 4b
+    It is rarely spoken outside of the worlds of its native speakers, and has in modern times been supplanted by the 'Conlangs of the Sol Alliance.
+    Its speakers are those who wish to uphold the traditions and beliefs of ancient peoples from before the colonial era.
+
+# Animal Languages
+
 language-Cat-name = Cat
 language-Cat-description = Meow
 
@@ -82,7 +84,7 @@ language-Xeno-name = Xeno
 language-Xeno-description = Sssss!
 
 language-Monkey-name = Monkey
-language-Monkey-description = oooook!
+language-Monkey-description = Oooook!
 
 language-Mouse-name = Mouse
 language-Mouse-description = Squeeek!
@@ -118,4 +120,6 @@ language-Eldritch-name = Eldritch
 language-Eldritch-description =
     A language that is considered to be long forgotten - now the only speakers of this profaned tongue of screeches and
     mumbles are the followers of an ancient God of Blood.
- 
+
+language-Penguin-name = Penguin
+language-Penguin-description = Bwaap!
