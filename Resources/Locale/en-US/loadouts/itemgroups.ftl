@@ -533,20 +533,20 @@ character-item-group-LoadoutCadetOuter = Cadet Outerwear
 character-item-group-LoadoutCadetShoes = Cadet Shoes
 character-item-group-LoadoutCadetUniforms = Cadet Uniforms
 
-# Security - Corpsman
-character-item-group-LoadoutCorpsmanBackpacks = Corpsman Backpacks
-character-item-group-LoadoutCorpsmanBelt = Corpsman Belt
-character-item-group-LoadoutCorpsmanEars = Corpsman Ears
-character-item-group-LoadoutCorpsmanEquipment = Corpsman Equipment
-character-item-group-LoadoutCorpsmanEyes = Corpsman Eyewear
-character-item-group-LoadoutCorpsmanGloves = Corpsman Gloves
-character-item-group-LoadoutCorpsmanHead = Corpsman Headgear
-character-item-group-LoadoutCorpsmanId = Corpsman Id
-character-item-group-LoadoutCorpsmanNeck = Corpsman Neckwear
-character-item-group-LoadoutCorpsmanMask = Corpsman Masks
-character-item-group-LoadoutCorpsmanOuter = Corpsman Outerwear
-character-item-group-LoadoutCorpsmanShoes = Corpsman Shoes
-character-item-group-LoadoutCorpsmanUniforms = Corpsman Uniforms
+# Security - Brigmedic
+character-item-group-LoadoutCorpsmanBackpacks = Brigmedic Backpacks
+character-item-group-LoadoutCorpsmanBelt = Brigmedic Belt
+character-item-group-LoadoutCorpsmanEars = Brigmedic Ears
+character-item-group-LoadoutCorpsmanEquipment = Brigmedic Equipment
+character-item-group-LoadoutCorpsmanEyes = Brigmedic Eyewear
+character-item-group-LoadoutCorpsmanGloves = Brigmedic Gloves
+character-item-group-LoadoutCorpsmanHead = Brigmedic Headgear
+character-item-group-LoadoutCorpsmanId = Brigmedic Id
+character-item-group-LoadoutCorpsmanNeck = Brigmedic Neckwear
+character-item-group-LoadoutCorpsmanMask = Brigmedic Masks
+character-item-group-LoadoutCorpsmanOuter = Brigmedic Outerwear
+character-item-group-LoadoutCorpsmanShoes = Brigmedic Shoes
+character-item-group-LoadoutCorpsmanUniforms = Brigmedic Uniforms
 
 # Security - Detective
 character-item-group-LoadoutDetectiveBackpacks = Detective Backpacks
