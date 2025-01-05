@@ -291,20 +291,20 @@ character-item-group-LoadoutNoviciateOuter = Research Assistant Outerwear
 character-item-group-LoadoutNoviciateShoes = Research Assistant Shoes
 character-item-group-LoadoutNoviciateUniforms = Research Assistant Uniforms
 
-# Science - Praying Mantis
-character-item-group-LoadoutPsionicMantisBackpacks = Praying Mantis Backpacks
-character-item-group-LoadoutPsionicMantisBelt = Praying Mantis Belt
-character-item-group-LoadoutPsionicMantisEars = Praying Mantis Ears
-character-item-group-LoadoutPsionicMantisEquipment = Praying Mantis Equipment
-character-item-group-LoadoutPsionicMantisEyes = Praying Mantis Eyewear
-character-item-group-LoadoutPsionicMantisGloves = Praying Mantis Gloves
-character-item-group-LoadoutPsionicMantisHead = Praying Mantis Headgear
-character-item-group-LoadoutPsionicMantisId = Praying Mantis Id
-character-item-group-LoadoutPsionicMantisNeck = Praying Mantis Neckwear
-character-item-group-LoadoutPsionicMantisMask = Praying Mantis Masks
-character-item-group-LoadoutPsionicMantisOuter = Praying Mantis Outerwear
-character-item-group-LoadoutPsionicMantisShoes = Praying Mantis Shoes
-character-item-group-LoadoutPsionicMantisUniforms = Praying Mantis Uniforms
+# Science - Mantis
+character-item-group-LoadoutPsionicMantisBackpacks = Mantis Backpacks
+character-item-group-LoadoutPsionicMantisBelt = Mantis Belt
+character-item-group-LoadoutPsionicMantisEars = Mantis Ears
+character-item-group-LoadoutPsionicMantisEquipment = Mantis Equipment
+character-item-group-LoadoutPsionicMantisEyes = Mantis Eyewear
+character-item-group-LoadoutPsionicMantisGloves = Mantis Gloves
+character-item-group-LoadoutPsionicMantisHead = Mantis Headgear
+character-item-group-LoadoutPsionicMantisId = Mantis Id
+character-item-group-LoadoutPsionicMantisNeck = Mantis Neckwear
+character-item-group-LoadoutPsionicMantisMask = Mantis Masks
+character-item-group-LoadoutPsionicMantisOuter = Mantis Outerwear
+character-item-group-LoadoutPsionicMantisShoes = Mantis Shoes
+character-item-group-LoadoutPsionicMantisUniforms = Mantis Uniforms
 
 # Cargo
 character-item-group-LoadoutLogisticsBackpacks = Cargo Backpacks
