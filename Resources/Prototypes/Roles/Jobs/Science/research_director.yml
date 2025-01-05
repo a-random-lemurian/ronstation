@@ -19,12 +19,6 @@
     #    - !type:CharacterTraitRequirement
     #      traits:
     #        - AnomalousPositronics
-    #- !type:CharacterLogicOrRequirement # Ronstation - Unneeded speciesism.
-    #  requirements:
-    #    - !type:CharacterSpeciesRequirement
-    #      inverted: true
-    #      species:
-    #        - Shadowkin
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"

@@ -8,12 +8,9 @@
     - !type:CharacterOverallTimeRequirement
       min: 18000 # 5 hours.
     - !type:DepartmentTimeRequirement
-      department: Science # Ronstation - Forensic Mantis replaced with Praying Mantis.
-      min: 18000 #Ronstation - 5 hours.
-  #  - !type:CharacterPlaytimeRequirement
-  #    tracker: JobDetective
-  #    min: 18000 #Ronstation - 5 hours.
-  #  - !type:CharacterLogicOrRequirement
+      department: Science # Ronstation - Science Department replacing Epistemics
+      min: 18000 # Ronstation - 5 hours.
+    - !type:CharacterLogicOrRequirement
   #    requirements:
   #      - !type:CharacterSpeciesRequirement
   #        inverted: true
@@ -22,12 +19,6 @@
   #      - !type:CharacterTraitRequirement
   #        traits:
   #          - AnomalousPositronics
-  #  - !type:CharacterLogicOrRequirement # Ronstation - Unneeded speciesism.
-  #    requirements:
-  #      - !type:CharacterSpeciesRequirement
-  #        inverted: true
-  #        species:
-  #          - Shadowkin
   startingGear: ForensicMantisGear
   icon: "JobIconForensicMantis"
   supervisors: job-supervisors-rd

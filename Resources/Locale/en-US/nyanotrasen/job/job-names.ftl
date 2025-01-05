@@ -3,8 +3,8 @@ job-name-guard = Prison Guard
 job-name-mail-carrier = Mail Carrier
 job-name-martialartist =  Martial Artist
 job-name-prisoner = Prisoner
-job-name-mantis = Praying Mantis
+job-name-mantis = Mantis
 
 # Role timers
 JobMailCarrier = Mail Carrier
-JobForensicMantis = Praying Mantis
+JobForensicMantis = Mantis
