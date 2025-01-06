@@ -100,8 +100,8 @@
   subCategories:
     - JobsEpistemicsAAUncategorized
     - JobsEpistemicsAcolyte
-    - JobsEpistemicsCataloger
-    - JobsEpistemicsChaplain
+  #  - JobsEpistemicsCataloger # Ronstation - Cataloger is now in service.
+  #  - JobsEpistemicsChaplain # Ronstation - Chaplain is now in service.
     - JobsEpistemicsGolemancer
     - JobsEpistemicsMystagogue
     - JobsEpistemicsMystic
@@ -248,6 +248,8 @@
     - JobsServiceMime
     - JobsServiceMusician
     - JobsServiceReporter
+    - JobsEpistemicsCataloger # Ronstation - Cataloger is now in service.
+    - JobsEpistemicsChaplain # Ronstation - Chaplain is now in service.
 
 - type: loadoutCategory
   id: JobsServiceAUncategorized

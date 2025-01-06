@@ -5,7 +5,7 @@
   playTimeTracker: JobSeniorResearcher
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics # DeltaV - Epistemics Department replacing Science
+      department: Epistemics
       min: 216000 #60 hrs
   startingGear: SeniorResearcherGear
   icon: "JobIconSeniorResearcher"

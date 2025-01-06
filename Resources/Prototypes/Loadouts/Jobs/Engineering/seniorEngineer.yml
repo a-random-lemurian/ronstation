@@ -8,6 +8,9 @@
   cost: 0
   exclusive: true
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerBelt
     - !type:CharacterJobRequirement
@@ -22,6 +25,9 @@
   cost: 0
   exclusive: true
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerBelt
     - !type:CharacterJobRequirement
@@ -36,6 +42,9 @@
   cost: 0
   exclusive: true
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerBelt
     - !type:CharacterJobRequirement
@@ -52,6 +61,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -65,6 +77,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -78,6 +93,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -92,6 +110,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 1
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -105,6 +126,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 1
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -118,6 +142,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -131,6 +158,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 1
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -144,6 +174,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -157,6 +190,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 1
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -170,6 +206,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -183,6 +222,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 1
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -196,6 +238,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -209,6 +254,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 1
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -222,6 +270,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -235,6 +286,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 2
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -248,6 +302,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -261,6 +318,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 2
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -274,6 +334,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -287,6 +350,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 2
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -300,6 +366,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -313,6 +382,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 2
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -326,6 +398,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -339,6 +414,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 2
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -352,6 +430,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -365,6 +446,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 2
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -378,6 +462,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -391,6 +478,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 1
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
@@ -404,6 +494,9 @@
   category: JobsEngineeringSeniorEngineer
   cost: 0
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 216000 # 60 hrs
     - !type:CharacterItemGroupRequirement
       group: LoadoutSeniorEngineerEquipment
     - !type:CharacterJobRequirement
