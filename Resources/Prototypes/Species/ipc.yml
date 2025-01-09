@@ -4,6 +4,7 @@
   roundStart: false # Ronstation - Race rework.
   prototype: MobIPC
   sprites: MobIPCSprites
+  defaultSkinTone: "#aaa9ad"
   markingLimits: MobIPCMarkingLimits
   dollPrototype: MobIPCDummy
   skinColoration: Hues
