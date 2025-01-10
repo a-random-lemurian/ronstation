@@ -134,7 +134,7 @@
   - type: InteractionOutline
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/intercom.rsi
+    sprite: _Ronstation/Structures/Wallmounts/intercom.rsi
     layers:
     - state: build
     - state: panel
@@ -261,7 +261,7 @@
 - type: entity
   id: IntercomScience
   parent: Intercom
-  suffix: Epistemics # DeltaV - Epistemics Department replacing Science
+  suffix: Science # Ronstation - Science Department replacing Epistemics
   components:
   - type: ContainerFill
     containers:
