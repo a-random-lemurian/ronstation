@@ -8,8 +8,8 @@
     engineering: "#EFB34196"
     security: "#DE3A3A96"
     bar: "#79150096"
-    epistemics: "#D381C996" # DeltaV - Epistemics Department replacing Science
-    logistics: "#A4610696" # DeltaV - Logistics Department replacing Cargo
+    science: "#D381C996" # Ronstation - Science Department replacing Epistemics
+    cargo: "#A4610696" # Ronstation - Cargo Department replacing Logistics
     justice: "#6b2833DD" #DeltaV - Added Justice Department
     janitor: "#8c347f96"
     chemistry: "#fa750096"
