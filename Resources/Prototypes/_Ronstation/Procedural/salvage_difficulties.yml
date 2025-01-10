@@ -6,7 +6,7 @@
   color: "#9FED5896"
   recommendedPlayers: 2
 
-  - type: salvageDifficulty
+- type: salvageDifficulty
   id: Difficult
   lootBudget: 60
   mobBudget: 50
