@@ -1,4 +1,9 @@
 # Seed loot table
+- type: salvageLoot
+  id: SalvageLoot
+  loots:
+    - !type:RandomSpawnsLoot
+      entries:
         - proto: GalaxythistleSeeds
           prob: 0.5
         - proto: LingzhiSeeds
