@@ -60,6 +60,7 @@ map_enabled = true
 
 [shuttle]
 arrivals_map = "Maps/_Ronstation/Misc/terminal.yml"
+emergency_dock_time = 120f
 
 [glimmer]
 enabled = false
