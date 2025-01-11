@@ -9,11 +9,11 @@
 | Wiki                      | [http://ronstation.wikidot.com/](http://ronstation.wikidot.com/)   |
 | Discord                   | [https://discord.gg/q9vm8tfxc9](https://discord.gg/q9vm8tfxc9)    |
 
-This is the codebase for the Ronstation flavoured fork of Einstein Engines.
+This is the codebase for the Ronstation flavoured fork of Einstein Engines (see below for more information).
 
 Space Station 14 tells the story of an ordinary shift on a space station gone right or wrong, with unique mechanics and charming spritework designed around a science-fantasy setting and it's dangerous undertones. Immerse yourself into your role, tinker with detailed systems, and survive any happenings in this round-based multiplayer role playing game.
 
-*All github inquiries (such as moderation actions) may be handled via the Ronstation discord [#⌨・dev](https://discordapp.com/channels/1133379746361770034/1191169155634827295).*
+*Any github inquiries may be handled via the Ronstation discord [#⌨・dev](https://discordapp.com/channels/1133379746361770034/1191169155634827295) channel.*
 
 # Einstein Engines
 
