@@ -20,7 +20,7 @@ map_pool           = "RonstationMapPool"
 
 [hub]
 tags = "lang:en-US,region:am_n_e,rp:med"
-hub_urls = "https://web.networkgamez.com/, https://hub.singularity14.co.uk/" # For official Space Wizards Federation hub: https://hub.spacestation14.com/.
+hub_urls = "https://web.networkgamez.com/, https://hub.singularity14.co.uk/", "https://hub.spacestation14.com/"
 
 [ic]
 flavor_text = true
