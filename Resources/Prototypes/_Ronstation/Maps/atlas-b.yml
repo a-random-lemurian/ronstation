@@ -9,10 +9,12 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} Atlas {1}'
+          mapNameTemplate: '{0} Atlas B {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: 'R4' # R4407/Goon. GS isn't as cool sounding.
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/_Ronstation/Shuttles/emergency_small.yml # Ronstation: New Shuttle.
         - type: StationJobs
           availableJobs:
             #service
