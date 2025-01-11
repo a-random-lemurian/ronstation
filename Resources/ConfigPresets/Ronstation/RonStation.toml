@@ -26,7 +26,7 @@ hub_urls = "https://web.networkgamez.com/, https://hub.singularity14.co.uk/" # F
 flavor_text = true
 
 [infolinks]
-discord    = "https://discord.gg/X4QEXxUrsJ"
+discord    = "https://discord.gg/q9vm8tfxc9"
 github     = "https://github.com/Merrokitsune/ronstation"
 website    = "http://ronstation.wikidot.com/"
 bug_report = "https://github.com/Merrokitsune/ronstation/issues/new/choose"
