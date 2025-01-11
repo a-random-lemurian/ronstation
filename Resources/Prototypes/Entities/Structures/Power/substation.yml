@@ -156,7 +156,7 @@
     sprite: _Ronstation/Structures/Power/substation.rsi
     layers:
     - state: substation_wall
-    - state: screen
+    - state: screen_wall
       shader: unshaded
   - type: Battery
     maxCharge: 2000000

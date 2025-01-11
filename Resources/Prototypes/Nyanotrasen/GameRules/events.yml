@@ -1,15 +1,15 @@
 ## Regular station events
-- type: entity
-  id: NoosphericStorm
-  parent: BaseGameRule
-  categories: [ HideSpawnMenu ]
-  components:
-    - type: StationEvent
-      startAnnouncement: true
-      weight: 5
-      earliestStart: 15
-      reoccurrenceDelay: 5
-    - type: NoosphericStormRule
+#- type: entity
+#  id: NoosphericStorm
+#  parent: BaseGameRule
+#  categories: [ HideSpawnMenu ]
+#  components:
+#    - type: StationEvent
+#      startAnnouncement: true
+#      weight: 5
+#      earliestStart: 15
+#      reoccurrenceDelay: 5
+#    - type: NoosphericStormRule
 
 # Mid round antag spawns
 - type: entity
@@ -29,16 +29,21 @@
   parent: BaseMidRoundAntag
   id: RatKingSpawn
   components:
+  - type: StationEvent
+    weight: 7
+    reoccurrenceDelay: 5
+    minimumPlayers: 7
+    earliestStart: 25
   - type: MidRoundAntagRule
     spawner: SpawnPointGhostRatKing
 
-- type: entity
-  categories: [ HideSpawnMenu ]
-  parent: BaseMidRoundAntag
-  id: ParadoxAnomalySpawn
-  components:
-  - type: MidRoundAntagRule
-    spawner: SpawnPointGhostParadoxAnomaly
+#- type: entity
+#  categories: [ HideSpawnMenu ]
+#  parent: BaseMidRoundAntag
+#  id: ParadoxAnomalySpawn
+#  components:
+#  - type: MidRoundAntagRule
+#    spawner: SpawnPointGhostParadoxAnomaly
 
 # Base glimmer event
 - type: entity
