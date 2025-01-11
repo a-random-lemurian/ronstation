@@ -1,6 +1,6 @@
 # Seed loot table
 - type: salvageLoot
-  id: SalvageLoot
+  id: SalvageLootRonstation
   loots:
     - !type:RandomSpawnsLoot
       entries:
