@@ -11,7 +11,7 @@ ramping_average_chaos    = 4.5
 
 [game]
 hostname           = "[EN][LRP] Ronstation"
-desc               = "A low-roleplay server using Einstein Engines as base."
+desc               = "A low-roleplay server using Einstein Engines as base.  it doesn't get that many players, which makes the server rather relaxing."
 soft_max_players   = 60
 lobbyenabled       = true
 lobbyduration      = 240
@@ -19,14 +19,14 @@ station_goals      = false
 map_pool           = "RonstationMapPool"
 
 [hub]
-tags = "lang:en-US,region:am_n_e,rp:med"
-hub_urls = "https://web.networkgamez.com/, https://hub.singularity14.co.uk/" # For official Space Wizards Federation hub: https://hub.spacestation14.com/.
+tags = "lang:en-US,region:am_n_e,rp:low"
+hub_urls = "https://web.networkgamez.com/, https://hub.singularity14.co.uk/", "https://hub.spacestation14.com/" #If anything changes, we could remove the official SS14 hub from this section.
 
 [ic]
 flavor_text = true
 
 [infolinks]
-discord    = "https://discord.gg/X4QEXxUrsJ"
+discord    = "https://discord.gg/q9vm8tfxc9"
 github     = "https://github.com/Merrokitsune/ronstation"
 website    = "http://ronstation.wikidot.com/"
 bug_report = "https://github.com/Merrokitsune/ronstation/issues/new/choose"
