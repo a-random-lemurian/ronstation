@@ -3,7 +3,7 @@
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/Merrokitsune/ronstation.svg)](http://isitmaintained.com/project/Merrokitsune/ronstation "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/Merrokitsune/ronstation.svg)](http://isitmaintained.com/project/Merrokitsune/ronstation "Percentage of issues still open")
 
-![MadeInEinsteinEngines](https://github.com/user-attachments/assets/d69802a9-ac29-42c7-a615-cc3091b1b83c)
+[![MadeInEinsteinEngines](https://github.com/user-attachments/assets/d69802a9-ac29-42c7-a615-cc3091b1b83c)](https://github.com/Simple-Station/Einstein-Engines)
 
 | Website                   | Link                                           |
 |---------------------------|------------------------------------------------|
