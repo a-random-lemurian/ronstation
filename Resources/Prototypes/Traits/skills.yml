@@ -333,8 +333,19 @@
         - type: PsionicInsulation
   requirements:
     - !type:CharacterSpeciesRequirement
+      inverted: true # Ronstaiton - Race rework.
       species:
         - IPC
+        - Shadowkin # Ronstaiton - Race rework.
+        - Gingerbread # Ronstaiton - Race rework.
+        - Vox # Ronstaiton - Race rework.
+        - Diona # Ronstaiton - Race rework.
+        - Dwarf # Ronstaiton - Race rework.
+        - SlimePerson # Ronstaiton - Race rework.
+        - Arachnid # Ronstaiton - Race rework.
+        - Reptilian # Ronstaiton - Race rework.
+        - Human # Ronstaiton - Race rework.
+        - Moth # Ronstaiton - Race rework.
 
 - type: trait
   id: AnimalFriend
