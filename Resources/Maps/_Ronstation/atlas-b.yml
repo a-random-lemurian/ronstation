@@ -3357,12 +3357,12 @@ entities:
             0: 65391
           -13,-2:
             0: 34943
-            6: 12288
+            3: 12288
           -12,-1:
             0: 65535
           -13,-1:
             0: 34952
-            3: 12336
+            4: 12336
           -12,0:
             0: 65535
           -12,-5:
@@ -3398,7 +3398,7 @@ entities:
           -13,-6:
             2: 61680
           -13,-5:
-            3: 61152
+            4: 61152
           -11,-6:
             2: 17
             0: 56320
@@ -3427,8 +3427,8 @@ entities:
             0: 305
           -13,0:
             0: 34952
-            4: 48
-            5: 12288
+            5: 48
+            6: 12288
           -12,1:
             0: 30576
           -13,1:
@@ -3493,14 +3493,14 @@ entities:
             0: 25600
           -14,0:
             0: 13107
-            4: 128
-            5: 32768
+            5: 128
+            6: 32768
           -14,1:
             0: 243
             2: 61440
           -14,-1:
             0: 13107
-            3: 32896
+            4: 32896
           -14,2:
             0: 52352
             2: 8
@@ -3516,7 +3516,7 @@ entities:
             2: 4352
           -14,-2:
             0: 13311
-            6: 32768
+            3: 32768
           -14,-4:
             2: 4573
             0: 32768
@@ -3583,6 +3583,21 @@ entities:
           - 0
           - 0
           - 0
+          - 6666.982
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.15
+          moles:
+          - 0
+          - 0
+          - 0
           - 0
           - 0
           - 0
@@ -3614,21 +3629,6 @@ entities:
           - 6666.982
           - 0
           - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.15
-          moles:
-          - 0
-          - 0
-          - 0
-          - 6666.982
           - 0
           - 0
           - 0
@@ -4235,6 +4235,18 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -45.5,-6.5
       parent: 30
+- proto: AirlockBlueshieldOfficerCommandLocked
+  entities:
+  - uid: 8762
+    components:
+    - type: Transform
+      pos: 39.5,-6.5
+      parent: 30
+  - uid: 8764
+    components:
+    - type: Transform
+      pos: 36.5,-4.5
+      parent: 30
 - proto: AirlockCaptainGlassLocked
   entities:
   - uid: 223
@@ -4327,16 +4339,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 35.5,-0.5
-      parent: 30
-  - uid: 8762
-    components:
-    - type: Transform
-      pos: 39.5,-6.5
-      parent: 30
-  - uid: 8764
-    components:
-    - type: Transform
-      pos: 36.5,-4.5
       parent: 30
 - proto: AirlockDetectiveGlassLocked
   entities:
@@ -20257,35 +20259,6 @@ entities:
     - type: Transform
       pos: 13.450137,-7.468577
       parent: 30
-- proto: chem_master
-  entities:
-  - uid: 2470
-    components:
-    - type: Transform
-      pos: -1.5,-4.5
-      parent: 30
-    - type: ContainerContainer
-      containers:
-        ChemMaster-beaker: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        machine_board: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_parts: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        beakerSlot: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        outputSlot: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
 - proto: ChemDispenser
   entities:
   - uid: 2469
@@ -20318,6 +20291,35 @@ entities:
     - type: Transform
       pos: -3.5,-6.5
       parent: 30
+- proto: ChemMaster
+  entities:
+  - uid: 2470
+    components:
+    - type: Transform
+      pos: -1.5,-4.5
+      parent: 30
+    - type: ContainerContainer
+      containers:
+        ChemMaster-beaker: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        machine_board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+        machine_parts: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+        beakerSlot: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        outputSlot: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: ChurchOrganInstrument
   entities:
   - uid: 1016
@@ -41326,13 +41328,6 @@ entities:
     - type: Transform
       pos: 12.5,15.5
       parent: 30
-- proto: LockerSteel
-  entities:
-  - uid: 8784
-    components:
-    - type: Transform
-      pos: 37.5,-5.5
-      parent: 30
 - proto: LockerWardenFilled
   entities:
   - uid: 1079
@@ -48110,17 +48105,15 @@ entities:
       parent: 30
 - proto: SignChem
   entities:
-  - uid: 2476
-    components:
-    - type: Transform
-      pos: -4.5,-3.5
-      parent: 30
-- proto: SignChemistry2
-  entities:
   - uid: 2465
     components:
     - type: Transform
       pos: -0.5,-3.5
+      parent: 30
+  - uid: 2476
+    components:
+    - type: Transform
+      pos: -4.5,-3.5
       parent: 30
 - proto: SignDirectionalBridge
   entities:
@@ -48403,15 +48396,13 @@ entities:
     - type: Transform
       pos: 26.5,5.5
       parent: 30
-- proto: SignHydro2
+- proto: SignHydro1
   entities:
   - uid: 1557
     components:
     - type: Transform
       pos: -8.5,7.5
       parent: 30
-- proto: SignHydro3
-  entities:
   - uid: 1558
     components:
     - type: Transform
@@ -48435,18 +48426,6 @@ entities:
     components:
     - type: Transform
       pos: 14.5,0.5
-      parent: 30
-- proto: SignMinerDock
-  entities:
-  - uid: 5802
-    components:
-    - type: Transform
-      pos: -34.5,14.5
-      parent: 30
-  - uid: 6865
-    components:
-    - type: Transform
-      pos: -37.5,29.5
       parent: 30
 - proto: SignMorgue
   entities:
@@ -48484,8 +48463,6 @@ entities:
     - type: Transform
       pos: -24.5,-7.5
       parent: 30
-- proto: SignScience2
-  entities:
   - uid: 5165
     components:
     - type: Transform
@@ -48506,13 +48483,17 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 16.5,9.5
       parent: 30
-- proto: SignShield
+- proto: SignShipDock
   entities:
-  - uid: 8791
+  - uid: 5802
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 35.5,-4.5
+      pos: -34.5,14.5
+      parent: 30
+  - uid: 6865
+    components:
+    - type: Transform
+      pos: -37.5,29.5
       parent: 30
 - proto: SignSpace
   entities:
@@ -48976,6 +48957,13 @@ entities:
     components:
     - type: Transform
       pos: -19.5,3.5
+      parent: 30
+- proto: SpawnPointBlueshieldOfficer
+  entities:
+  - uid: 8791
+    components:
+    - type: Transform
+      pos: 38.5,-5.5
       parent: 30
 - proto: SpawnPointBorg
   entities:
@@ -51540,6 +51528,13 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 27.5,-4.5
+      parent: 30
+- proto: UniqueLockerBlueshieldOfficerFilled
+  entities:
+  - uid: 8784
+    components:
+    - type: Transform
+      pos: 37.5,-5.5
       parent: 30
 - proto: UprightPianoInstrument
   entities:
