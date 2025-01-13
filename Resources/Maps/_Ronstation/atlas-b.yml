@@ -5824,11 +5824,21 @@ entities:
     - type: Transform
       pos: -13.5,-12.5
       parent: 30
+    - type: DeviceLinkSink
+      links:
+      - 9052
+    - type: MaterialSiloUtilizer
+      silo: 9052
   - uid: 5467
     components:
     - type: Transform
       pos: -33.5,5.5
       parent: 30
+    - type: DeviceLinkSink
+      links:
+      - 9052
+    - type: MaterialSiloUtilizer
+      silo: 9052
 - proto: BannerNanotrasen
   entities:
   - uid: 274
@@ -6565,6 +6575,12 @@ entities:
     components:
     - type: Transform
       pos: 34.325035,-5.3407297
+      parent: 30
+  - uid: 9053
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 38.5,-7.5
       parent: 30
 - proto: BoxFolderRed
   entities:
@@ -20377,6 +20393,11 @@ entities:
     - type: Transform
       pos: -13.5,-13.5
       parent: 30
+    - type: DeviceLinkSink
+      links:
+      - 9052
+    - type: MaterialSiloUtilizer
+      silo: 9052
 - proto: CleanerDispenser
   entities:
   - uid: 7726
@@ -21492,6 +21513,12 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 41.5,0.5
+      parent: 30
+  - uid: 8584
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 35.5,-7.5
       parent: 30
 - proto: ComputerTelevision
   entities:
@@ -25122,6 +25149,11 @@ entities:
     - type: Transform
       pos: -29.5,-11.5
       parent: 30
+    - type: DeviceLinkSink
+      links:
+      - 9052
+    - type: MaterialSiloUtilizer
+      silo: 9052
 - proto: ExtinguisherCabinetFilled
   entities:
   - uid: 5595
@@ -25246,7 +25278,7 @@ entities:
   - uid: 8789
     components:
     - type: Transform
-      pos: 35.5,-7.5
+      pos: 37.5,-7.5
       parent: 30
 - proto: FireAlarm
   entities:
@@ -41496,6 +41528,27 @@ entities:
     - type: Transform
       pos: 25.5,-12.5
       parent: 30
+- proto: MaterialSilo
+  entities:
+  - uid: 9052
+    components:
+    - type: Transform
+      pos: -45.5,9.5
+      parent: 30
+    - type: DeviceLinkSource
+      linkedPorts:
+        5467:
+        - MaterialSilo: MaterialSiloUtilizer
+        2380:
+        - MaterialSilo: MaterialSiloUtilizer
+        4724:
+        - MaterialSilo: MaterialSiloUtilizer
+        4725:
+        - MaterialSilo: MaterialSiloUtilizer
+        4726:
+        - MaterialSilo: MaterialSiloUtilizer
+        7693:
+        - MaterialSilo: MaterialSiloUtilizer
 - proto: MaterialWoodPlank
   entities:
   - uid: 6907
@@ -44496,6 +44549,11 @@ entities:
     - type: Transform
       pos: -13.5,-11.5
       parent: 30
+    - type: DeviceLinkSink
+      links:
+      - 9052
+    - type: MaterialSiloUtilizer
+      silo: 9052
 - proto: Rack
   entities:
   - uid: 850
@@ -50656,12 +50714,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -35.5,4.5
       parent: 30
-  - uid: 8584
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 37.5,-7.5
-      parent: 30
   - uid: 8652
     components:
     - type: Transform
@@ -51529,6 +51581,11 @@ entities:
       rot: 3.141592653589793 rad
       pos: 27.5,-4.5
       parent: 30
+    - type: DeviceLinkSink
+      links:
+      - 9052
+    - type: MaterialSiloUtilizer
+      silo: 9052
 - proto: UniqueLockerBlueshieldOfficerFilled
   entities:
   - uid: 8784
