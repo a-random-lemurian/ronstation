@@ -1,3 +1,22 @@
+# Ronstation
+
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/Merrokitsune/ronstation.svg)](http://isitmaintained.com/project/Merrokitsune/ronstation "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/Merrokitsune/ronstation.svg)](http://isitmaintained.com/project/Merrokitsune/ronstation "Percentage of issues still open")
+
+[![MadeInEinsteinEngines](https://github.com/user-attachments/assets/d69802a9-ac29-42c7-a615-cc3091b1b83c)](https://github.com/Simple-Station/Einstein-Engines)
+
+| Website                   | Link                                           |
+|---------------------------|------------------------------------------------|
+| Code                      | [https://github.com/Merrokitsune/ronstation](https://github.com/Merrokitsune/ronstation)    |
+| Wiki                      | [http://ronstation.wikidot.com/](http://ronstation.wikidot.com/)   |
+| Discord                   | [https://discord.gg/q9vm8tfxc9](https://discord.gg/q9vm8tfxc9)    |
+
+This is the codebase for the Ronstation flavoured fork of Einstein Engines (see below for more information).
+
+Space Station 14 tells the story of an ordinary shift on a space station gone right or wrong, with unique mechanics and charming spritework designed around a science-fantasy setting and it's dangerous undertones. Immerse yourself into your role, tinker with detailed systems, and survive any happenings in this round-based multiplayer role playing game.
+
+*Any github inquiries may be handled via the Ronstation discord [#⌨・dev](https://discordapp.com/channels/1133379746361770034/1191169155634827295) channel.*
+
 # Einstein Engines
 
 <p align="center"><img src="https://raw.githubusercontent.com/Simple-Station/Einstein-Engines/master/Resources/Textures/Logo/splashlogo.png" width="512px" /></p>
