@@ -15,7 +15,6 @@ desc               = "An alternative upstream that favors content intended for R
 soft_max_players   = 60
 lobbyenabled       = true
 lobbyduration      = 240
-map_pool           = "RonstationMapPool"
 
 [hub]
 tags = "lang:en-US,region:am_n_e,rp:med"
@@ -68,3 +67,8 @@ enabled = false
 [psionics]
 rolls_enabled = false
 
+[control]
+default_walk = false
+
+[atmos]
+space_wind = false
