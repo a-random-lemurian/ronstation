@@ -8618,6 +8618,11 @@ entities:
     - type: Transform
       pos: 17.5,-3.5
       parent: 1
+    - type: DeviceLinkSink
+      links:
+      - 3966
+    - type: MaterialSiloUtilizer
+      silo: 3966
   - uid: 1878
     components:
     - type: Transform
@@ -8628,6 +8633,11 @@ entities:
     - type: Transform
       pos: -8.5,-0.5
       parent: 1
+    - type: DeviceLinkSink
+      links:
+      - 3966
+    - type: MaterialSiloUtilizer
+      silo: 3966
 - proto: BananaPhoneInstrument
   entities:
   - uid: 12404
@@ -29008,6 +29018,11 @@ entities:
     - type: Transform
       pos: -9.5,-0.5
       parent: 1
+    - type: DeviceLinkSink
+      links:
+      - 3966
+    - type: MaterialSiloUtilizer
+      silo: 3966
 - proto: CleanerDispenser
   entities:
   - uid: 12616
@@ -31166,6 +31181,13 @@ entities:
     components:
     - type: Transform
       pos: -11.479882,-31.566597
+      parent: 1
+- proto: DefaultStationBeaconAICore
+  entities:
+  - uid: 4010
+    components:
+    - type: Transform
+      pos: -6.5,52.5
       parent: 1
 - proto: DefaultStationBeaconAME
   entities:
@@ -35758,6 +35780,11 @@ entities:
     - type: Transform
       pos: -7.5,-15.5
       parent: 1
+    - type: DeviceLinkSink
+      links:
+      - 3966
+    - type: MaterialSiloUtilizer
+      silo: 3966
 - proto: ExtinguisherCabinetFilled
   entities:
   - uid: 5490
@@ -61431,6 +61458,29 @@ entities:
     - type: Transform
       pos: -2.569489,-34.556107
       parent: 1
+- proto: MaterialSilo
+  entities:
+  - uid: 3966
+    components:
+    - type: Transform
+      pos: -0.5,54.5
+      parent: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        1024:
+        - MaterialSilo: MaterialSiloUtilizer
+        4954:
+        - MaterialSilo: MaterialSiloUtilizer
+        3808:
+        - MaterialSilo: MaterialSiloUtilizer
+        3807:
+        - MaterialSilo: MaterialSiloUtilizer
+        3806:
+        - MaterialSilo: MaterialSiloUtilizer
+        7286:
+        - MaterialSilo: MaterialSiloUtilizer
+        663:
+        - MaterialSilo: MaterialSiloUtilizer
 - proto: MaterialWoodPlank
   entities:
   - uid: 8495
@@ -61920,6 +61970,11 @@ entities:
     - type: Transform
       pos: 20.5,-24.5
       parent: 1
+    - type: DeviceLinkSink
+      links:
+      - 3966
+    - type: MaterialSiloUtilizer
+      silo: 3966
 - proto: OreProcessorMachineCircuitboard
   entities:
   - uid: 9517
@@ -63125,7 +63180,7 @@ entities:
       parent: 1
 - proto: PlayerStationAi
   entities:
-  - uid: 4010
+  - uid: 13517
     components:
     - type: Transform
       pos: -6.5,52.5
@@ -63453,11 +63508,6 @@ entities:
     components:
     - type: Transform
       pos: 3.5,54.5
-      parent: 1
-  - uid: 3966
-    components:
-    - type: Transform
-      pos: -0.5,54.5
       parent: 1
   - uid: 3967
     components:
@@ -65314,6 +65364,11 @@ entities:
     - type: Transform
       pos: -10.5,-0.5
       parent: 1
+    - type: DeviceLinkSink
+      links:
+      - 3966
+    - type: MaterialSiloUtilizer
+      silo: 3966
 - proto: Rack
   entities:
   - uid: 559
@@ -72698,6 +72753,13 @@ entities:
     - type: Transform
       pos: -37.5,-9.5
       parent: 1
+- proto: SpawnPointMailCarrier
+  entities:
+  - uid: 13516
+    components:
+    - type: Transform
+      pos: 8.5,-29.5
+      parent: 1
 - proto: SpawnPointMedicalDoctor
   entities:
   - uid: 6029
@@ -76097,6 +76159,11 @@ entities:
     - type: Transform
       pos: -1.5,21.5
       parent: 1
+    - type: DeviceLinkSink
+      links:
+      - 3966
+    - type: MaterialSiloUtilizer
+      silo: 3966
 - proto: UniformShortsRed
   entities:
   - uid: 8815
