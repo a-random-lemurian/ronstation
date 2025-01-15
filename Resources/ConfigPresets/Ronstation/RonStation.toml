@@ -43,7 +43,7 @@ limit = 10.0
 fork_id = "Ronstation"
 
 [server]
-rules_file   = "DefaultRuleset"
+rules_file   = "RonstationRuleset"
 
 [ooc]
 enable_during_round = true
