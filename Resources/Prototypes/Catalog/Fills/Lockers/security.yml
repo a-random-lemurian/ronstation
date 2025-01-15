@@ -154,6 +154,8 @@
       - id: TrackingImplanter
         amount: 2
       - id: ClothingOuterHardsuitCombatCorpsman
+      - id: OxygenTankFilled
+      - id: NitrogenTankFilled
       - id: ClothingUniformJumpsuitBrigmedic
       - id: ClothingUniformJumpskirtBrigmedic
       - id: HandheldGPSBasic # Added GPS because I just think it should be there tbh.

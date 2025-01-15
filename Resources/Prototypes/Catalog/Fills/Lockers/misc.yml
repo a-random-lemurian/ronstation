@@ -36,6 +36,12 @@
         id: EmergencyOxygenTankFilled
       - !type:EntSelector
         id: OxygenTankFilled
+    - !type:GroupSelector
+      children:
+      - !type:EntSelector
+        id: EmergencyNitrogenTankFilled
+      - !type:EntSelector
+        id: NitrogenTankFilled
     - !type:EntSelector
       id: ToolboxEmergencyFilled
       prob: 0.5
@@ -105,6 +111,12 @@
         id: EmergencyOxygenTankFilled
       - !type:EntSelector
         id: OxygenTankFilled
+    - !type:GroupSelector
+        children:
+        - !type:EntSelector
+          id: EmergencyNitrogenTankFilled
+        - !type:EntSelector
+          id: NitrogenTankFilled
     - !type:EntSelector
       id: CrowbarRed
     - !type:GroupSelector
