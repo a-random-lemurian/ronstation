@@ -2,7 +2,7 @@
   id: Omega-Lul
   mapName: 'Omega-Lul'
   mapPath: /Maps/_Ronstation/omega-lul.yml
-  minPlayers: 10
+  minPlayers: 5
   maxPlayers: 35
   stations:
     Omega:

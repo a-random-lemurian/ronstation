@@ -2,7 +2,7 @@
   id: Atlas-B
   mapName: Atlas
   mapPath: /Maps/_Ronstation/atlas-b.yml
-  minPlayers: 5
+  minPlayers: 0
   maxPlayers: 20
   stations:
     Atlas:

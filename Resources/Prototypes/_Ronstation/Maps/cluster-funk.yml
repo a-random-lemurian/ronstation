@@ -2,7 +2,7 @@
   id: Cluster-Funk
   mapName: 'Cluster Funk'
   mapPath: /Maps/_Ronstation/cluster-funk.yml
-  minPlayers: 10
+  minPlayers: 5
   maxPlayers: 35
   stations:
     Cluster:
