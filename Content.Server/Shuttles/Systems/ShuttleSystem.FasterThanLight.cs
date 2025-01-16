@@ -641,6 +641,31 @@ public sealed partial class ShuttleSystem
         }
     }
 
+    private void LeaveNoFTLBehind(Entity<TransformComponent> grid, Matrix3x2 oldGridMatrix, EntityUid? oldMapUid)
+    {
+        if (oldMapUid == null)
+            return;
+
+        _noFtls.Clear();
+        var oldGridRotation = oldGridMatrix.Rotation();
+        _lookup.GetGridEntities(grid.Owner, _noFtls);
+
+        foreach (var childUid in _noFtls)
+        {
+            if (!_xformQuery.TryComp(childUid, out var childXform))
+                continue;
+
+            // If we're not parented directly to the grid the matrix may be wrong.
+            var relative = _physics.GetRelativePhysicsTransform(childUid.Owner, (grid.Owner, grid.Comp));
+
+            _transform.SetCoordinates(
+                childUid,
+                childXform,
+                new EntityCoordinates(oldMapUid.Value,
+                Vector2.Transform(relative.Position, oldGridMatrix)), rotation: relative.Quaternion2D.Angle + oldGridRotation);
+        }
+    }
+
     private void KnockOverKids(TransformComponent xform, ref ValueList<EntityUid> toKnock)
     {
         // Not recursive because probably not necessary? If we need it to be that's why this method is separate.
