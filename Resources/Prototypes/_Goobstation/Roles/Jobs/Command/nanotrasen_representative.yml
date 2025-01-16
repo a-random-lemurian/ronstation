@@ -26,6 +26,8 @@
   - Research
   - Command
   - NanotrasenRepresentative
+  - Lawyer
+  - Cargo
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
