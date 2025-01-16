@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "marisa taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/pull/28877/commits/e2aeb654b7fc6871a4c4ef5f03485d870e940423, fluffy made by welladooom for the Ronstation fork and licensed under CC0-1.0.",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "fluffy",
+            "directions": 4
+        },
+        {
+            "name": "marisa",
+            "directions": 4
+        }
+    ]
+}
