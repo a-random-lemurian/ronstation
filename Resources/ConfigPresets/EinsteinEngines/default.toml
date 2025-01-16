@@ -69,6 +69,3 @@ rolls_enabled = false
 
 [control]
 default_walk = false
-
-[atmos]
-space_wind = false
