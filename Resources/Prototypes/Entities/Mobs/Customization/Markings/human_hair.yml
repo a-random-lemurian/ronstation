@@ -1350,9 +1350,9 @@
     - sprite: Mobs/Customization/human_hair.rsi
       state: tailed
 - type: marking
-  id: HumanHairNolaHair
+  id: HumanHairFluffyHair
   bodyPart: Hair
   markingCategory: Hair
   sprites:
     - sprite: Ronstation/Mobs/Customization/human_hair.rsi
-      state: nolahair
+      state: fluffy
