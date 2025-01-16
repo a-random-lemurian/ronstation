@@ -66,3 +66,5 @@ enabled = false
 [psionics]
 rolls_enabled = false
 
+[control]
+default_walk = false
