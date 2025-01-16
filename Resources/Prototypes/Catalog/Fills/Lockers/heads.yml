@@ -122,6 +122,8 @@
     contents:
       - id: ClothingOuterHardsuitEngineeringWhite
       - id: ClothingMaskBreath
+      - id: OxygenTankFilled
+      - id: NitrogenTankFilled
       - id: ClothingEyesGlassesMeson
       - id: ClothingShoesBootsMagAdv
       - id: ClothingHandsGlovesColorYellow
@@ -230,6 +232,8 @@
       - id: ProtolatheMachineCircuitboard
       - id: CircuitImprinterMachineCircuitboard
       - id: ClothingOuterHardsuitRd
+      - id: OxygenTankFilled
+      - id: NitrogenTankFilled
       - id: HandTeleporter
       - id: DoorRemoteResearch
       - id: ClothingBeltUtilityFilled
