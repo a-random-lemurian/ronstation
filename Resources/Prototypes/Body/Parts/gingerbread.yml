@@ -22,7 +22,7 @@
   parent: [PartGingerbread, BaseTorso]
   components:
   - type: Sprite
-    sprite: Mobs/Species/Gingerbread/parts.rsi
+    sprite: _Ronstation/Mobs/Species/Gingerbread/parts.rsi
     state: "torso_m"
   - type: Extractable
     juiceSolution:
@@ -38,7 +38,7 @@
   parent: [PartGingerbread, BaseHead]
   components:
   - type: Sprite
-    sprite: Mobs/Species/Gingerbread/parts.rsi
+    sprite: _Ronstation/Mobs/Species/Gingerbread/parts.rsi
     state: "head_m"
   - type: Extractable
     juiceSolution:

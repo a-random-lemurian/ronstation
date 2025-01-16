@@ -74,47 +74,47 @@
 - type: humanoidBaseSprite
   id: MobGingerbreadLLeg
   baseSprite:
-    sprite: _Ronstation/Mobs/Species/Gingerbread/parts.rsi
+    sprite: Mobs/Species/Gingerbread/parts.rsi
     state: l_leg
 
 - type: humanoidBaseSprite
   id: MobGingerbreadLHand
   baseSprite:
-    sprite: _Ronstation/Mobs/Species/Gingerbread/parts.rsi
+    sprite: Mobs/Species/Gingerbread/parts.rsi
     state: l_hand
 
 - type: humanoidBaseSprite
   id: MobGingerbreadLArm
   baseSprite:
-    sprite: _Ronstation/Mobs/Species/Gingerbread/parts.rsi
+    sprite: Mobs/Species/Gingerbread/parts.rsi
     state: l_arm
 
 - type: humanoidBaseSprite
   id: MobGingerbreadLFoot
   baseSprite:
-    sprite: _Ronstation/Mobs/Species/Gingerbread/parts.rsi
+    sprite: Mobs/Species/Gingerbread/parts.rsi
     state: l_foot
 
 - type: humanoidBaseSprite
   id: MobGingerbreadRLeg
   baseSprite:
-    sprite: _Ronstation/Mobs/Species/Gingerbread/parts.rsi
+    sprite: Mobs/Species/Gingerbread/parts.rsi
     state: r_leg
 
 - type: humanoidBaseSprite
   id: MobGingerbreadRHand
   baseSprite:
-    sprite: _Ronstation/Mobs/Species/Gingerbread/parts.rsi
+    sprite: Mobs/Species/Gingerbread/parts.rsi
     state: r_hand
 
 - type: humanoidBaseSprite
   id: MobGingerbreadRArm
   baseSprite:
-    sprite: _Ronstation/Mobs/Species/Gingerbread/parts.rsi
+    sprite: Mobs/Species/Gingerbread/parts.rsi
     state: r_arm
 
 - type: humanoidBaseSprite
   id: MobGingerbreadRFoot
   baseSprite:
-    sprite: _Ronstation/Mobs/Species/Gingerbread/parts.rsi
+    sprite: Mobs/Species/Gingerbread/parts.rsi
     state: r_foot
