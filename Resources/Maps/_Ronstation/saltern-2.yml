@@ -7264,7 +7264,7 @@ entities:
       pos: -3.5,30.5
       parent: 31
     - type: Door
-      secondsUntilStateChange: -76288.66
+      secondsUntilStateChange: -76494.516
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7294,7 +7294,7 @@ entities:
       pos: 3.5,22.5
       parent: 31
     - type: Door
-      secondsUntilStateChange: -104032.375
+      secondsUntilStateChange: -104238.234
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7642,7 +7642,7 @@ entities:
       pos: 32.5,22.5
       parent: 31
     - type: Door
-      secondsUntilStateChange: -65073.387
+      secondsUntilStateChange: -65279.246
       state: Opening
     - type: DeviceLinkSource
       linkedPorts:
@@ -8057,7 +8057,7 @@ entities:
       pos: -21.5,3.5
       parent: 31
     - type: Door
-      secondsUntilStateChange: -84142.52
+      secondsUntilStateChange: -84348.38
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -21808,6 +21808,26 @@ entities:
     components:
     - type: Transform
       pos: -1.5,17.5
+      parent: 31
+  - uid: 15907
+    components:
+    - type: Transform
+      pos: -7.5,-32.5
+      parent: 31
+  - uid: 15908
+    components:
+    - type: Transform
+      pos: -7.5,-33.5
+      parent: 31
+  - uid: 15909
+    components:
+    - type: Transform
+      pos: -7.5,-34.5
+      parent: 31
+  - uid: 15910
+    components:
+    - type: Transform
+      pos: -6.5,-34.5
       parent: 31
 - proto: CableApcStack
   entities:
@@ -70548,6 +70568,66 @@ entities:
     - type: Transform
       pos: -5.5,35.5
       parent: 31
+  - uid: 15895
+    components:
+    - type: Transform
+      pos: 9.5,-1.5
+      parent: 31
+  - uid: 15896
+    components:
+    - type: Transform
+      pos: 16.5,-1.5
+      parent: 31
+  - uid: 15897
+    components:
+    - type: Transform
+      pos: 17.5,-9.5
+      parent: 31
+  - uid: 15898
+    components:
+    - type: Transform
+      pos: 10.5,-10.5
+      parent: 31
+  - uid: 15899
+    components:
+    - type: Transform
+      pos: 8.5,-14.5
+      parent: 31
+  - uid: 15900
+    components:
+    - type: Transform
+      pos: 12.5,-15.5
+      parent: 31
+  - uid: 15901
+    components:
+    - type: Transform
+      pos: 18.5,-16.5
+      parent: 31
+  - uid: 15902
+    components:
+    - type: Transform
+      pos: 23.5,-11.5
+      parent: 31
+  - uid: 15903
+    components:
+    - type: Transform
+      pos: 27.5,8.5
+      parent: 31
+  - uid: 15904
+    components:
+    - type: Transform
+      pos: -1.5,-26.5
+      parent: 31
+  - uid: 15905
+    components:
+    - type: Transform
+      pos: 9.5,-27.5
+      parent: 31
+  - uid: 15906
+    components:
+    - type: Transform
+      pos: 4.5,-34.5
+      parent: 31
 - proto: HolopadLongRange
   entities:
   - uid: 15855
@@ -74105,6 +74185,12 @@ entities:
     - type: Transform
       pos: 35.5,43.5
       parent: 31
+  - uid: 15911
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,-35.5
+      parent: 31
 - proto: Poweredlight
   entities:
   - uid: 41
@@ -75772,6 +75858,12 @@ entities:
     components:
     - type: Transform
       pos: 78.5,14.5
+      parent: 31
+  - uid: 15912
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -7.5,-35.5
       parent: 31
 - proto: PoweredSmallLightMaintenance
   entities:
@@ -84968,6 +85060,13 @@ entities:
     components:
     - type: Transform
       pos: 22.5,16.5
+      parent: 31
+- proto: SpawnPointMedicalBorg
+  entities:
+  - uid: 15894
+    components:
+    - type: Transform
+      pos: 23.5,-7.5
       parent: 31
 - proto: SpawnPointMedicalDoctor
   entities:
