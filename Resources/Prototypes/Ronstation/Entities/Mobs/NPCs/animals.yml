@@ -8,7 +8,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: ghost-role-information-SyndiMothroach-syndicate-name
+    name: ghost-role-information-SyndiMothroach-name
     description: ghost-role-information-SyndiMothroach-description
     rules: ghost-role-information-SyndiMothroach-rules
   - type: Fixtures
@@ -17,7 +17,7 @@
         shape:
           !type:PhysShapeCircle
           radius: 0.2
-        density: 120
+        density: 0.007
         mask:
         - SmallMobMask
         layer:
@@ -25,7 +25,7 @@
   - type: GhostTakeoverAvailable
   - type: Speech
     speechVerb: Moth
-    speechSounds: Squeak
+    speechSounds: Chitter
     allowedEmotes: ['Chitter', 'Squeak']
   - type: FaxableObject
     insertingState: inserting_mothroach
@@ -85,12 +85,18 @@
   - type: CombatMode
   - type: Butcherable
     spawned:
-    - id: FoodMeatSlime
+    - id: FoodMeatRat
       amount: 2
+    - id: HideMothroach # Gotta make the plushies
+      amount: 1
+      prob: 0.5
   - type: Extractable
     grindableSolutionName: food
-  - type: ReplacementAccent
-    accent: mothroach
+  - type: LanguageKnowledge
+    speaks:
+    - Moffic
+    understands:
+    - Moffic
   - type: ZombieAccentOverride
     accent: zombieMoth
   - type: Vocal
@@ -100,11 +106,12 @@
       Unsexed: UnisexMoth
     wilhelmProbability: 0.001
   - type: MobPrice
-    price: 200
+    price: 150
   - type: Tag
     tags:
     - Trash
     - CannotSuicide
+    - DoorBumpOpener # DeltaV - After all, why not? Why shouldn't they be able to open doors?
     - VimPilot
   - type: CanEscapeInventory
   - type: NpcFactionMember
@@ -122,51 +129,11 @@
         damage: 60
       behaviors:
       - !type:GibBehavior { }
-  - type: MeleeWeapon
-    soundHit:
-      path: /Audio/Effects/bite.ogg
-    angle: 15
-    animation: WeaponArcBite
-    damage:
-      types:
-        Slash: 4
-        Piercing: 4
-        Structural: 6
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
-  - type: Strippable
+  - type: SurgeryTarget
   - type: UserInterface
     interfaces:
-      enum.StrippingUiKey.Key:
-        type: StrippableBoundUserInterface
-  - type: InventorySlots
-  - type: Inventory
-    speciesId: hamster
-    templateId: hamster
-    displacements:
-      head:
-        sizeMaps:
-          32:
-            sprite: Mobs/Animals/mothroach/displacement.rsi
-            state: head
-      mask:
-        sizeMaps:
-          32:
-            sprite: Mobs/Animals/mothroach/displacement.rsi
-            state: mask
-      suitstorage:
-        sizeMaps:
-          32:
-            sprite: Mobs/Animals/mothroach/displacement.rsi
-            state: suitstorage
-      eyes:
-        sizeMaps:
-          32:
-            sprite: Mobs/Animals/mothroach/displacement.rsi
-            state: eyes
-      neck:
-        sizeMaps:
-          32:
-            sprite: Mobs/Animals/mothroach/displacement.rsi
-            state: neck
+      enum.SurgeryUIKey.Key:
+        type: SurgeryBui
