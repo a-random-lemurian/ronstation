@@ -7157,21 +7157,53 @@ entities:
     - type: Transform
       pos: 38.5,-25.5
       parent: 1
+    - type: DeviceLinkSink
+      invokeCounter: 1
+      links:
+      - 12912
+    - type: DeviceLinkSource
+      linkedPorts:
+        12912:
+        - DoorStatus: DoorBolt
   - uid: 12912
     components:
     - type: Transform
       pos: 36.5,-26.5
       parent: 1
+    - type: DeviceLinkSink
+      invokeCounter: 1
+      links:
+      - 12911
+    - type: DeviceLinkSource
+      linkedPorts:
+        12911:
+        - DoorStatus: DoorBolt
   - uid: 12913
     components:
     - type: Transform
       pos: 46.5,-25.5
       parent: 1
+    - type: DeviceLinkSink
+      invokeCounter: 1
+      links:
+      - 12914
+    - type: DeviceLinkSource
+      linkedPorts:
+        12914:
+        - DoorStatus: DoorBolt
   - uid: 12914
     components:
     - type: Transform
       pos: 48.5,-26.5
       parent: 1
+    - type: DeviceLinkSink
+      invokeCounter: 1
+      links:
+      - 12913
+    - type: DeviceLinkSource
+      linkedPorts:
+        12913:
+        - DoorStatus: DoorBolt
 - proto: AirlockExternalGlassLocked
   entities:
   - uid: 3284
@@ -62652,6 +62684,10 @@ entities:
         - MaterialSilo: MaterialSiloUtilizer
         663:
         - MaterialSilo: MaterialSiloUtilizer
+        5597:
+        - MaterialSilo: MaterialSiloUtilizer
+        5417:
+        - MaterialSilo: MaterialSiloUtilizer
 - proto: MaterialWoodPlank
   entities:
   - uid: 8495
@@ -62710,6 +62746,11 @@ entities:
     - type: Transform
       pos: -23.5,7.5
       parent: 1
+    - type: DeviceLinkSink
+      links:
+      - 3966
+    - type: MaterialSiloUtilizer
+      silo: 3966
 - proto: MedkitAdvancedFilled
   entities:
   - uid: 4118
@@ -71792,6 +71833,11 @@ entities:
     - type: Transform
       pos: 36.5,10.5
       parent: 1
+    - type: DeviceLinkSink
+      links:
+      - 3966
+    - type: MaterialSiloUtilizer
+      silo: 3966
 - proto: SeedExtractor
   entities:
   - uid: 6012

@@ -4693,12 +4693,28 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -57.5,0.5
       parent: 30
+    - type: DeviceLinkSink
+      invokeCounter: 1
+      links:
+      - 7904
+    - type: DeviceLinkSource
+      linkedPorts:
+        7904:
+        - DoorStatus: DoorBolt
   - uid: 7904
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -57.5,-1.5
       parent: 30
+    - type: DeviceLinkSink
+      invokeCounter: 1
+      links:
+      - 6809
+    - type: DeviceLinkSource
+      linkedPorts:
+        6809:
+        - DoorStatus: DoorBolt
 - proto: AirlockFreezerKitchenHydroLocked
   entities:
   - uid: 5503
@@ -42503,6 +42519,12 @@ entities:
         - MaterialSilo: MaterialSiloUtilizer
         7693:
         - MaterialSilo: MaterialSiloUtilizer
+        7713:
+        - MaterialSilo: MaterialSiloUtilizer
+        8366:
+        - MaterialSilo: MaterialSiloUtilizer
+        5619:
+        - MaterialSilo: MaterialSiloUtilizer
 - proto: MaterialWoodPlank
   entities:
   - uid: 6907
@@ -42556,6 +42578,11 @@ entities:
     - type: Transform
       pos: 3.5,-9.5
       parent: 30
+    - type: DeviceLinkSink
+      links:
+      - 9052
+    - type: MaterialSiloUtilizer
+      silo: 9052
 - proto: MedkitBruteFilled
   entities:
   - uid: 2336
@@ -42908,6 +42935,11 @@ entities:
     - type: Transform
       pos: -36.5,15.5
       parent: 30
+    - type: DeviceLinkSink
+      links:
+      - 9052
+    - type: MaterialSiloUtilizer
+      silo: 9052
 - proto: OxygenCanister
   entities:
   - uid: 340
@@ -48000,6 +48032,11 @@ entities:
     - type: Transform
       pos: 10.5,21.5
       parent: 30
+    - type: DeviceLinkSink
+      links:
+      - 9052
+    - type: MaterialSiloUtilizer
+      silo: 9052
 - proto: SeedExtractor
   entities:
   - uid: 1480
