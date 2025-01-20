@@ -4,6 +4,8 @@
   name: workstation
   description: An ancient-looking computer that can be put onto tables.
   components:
+  - type: Computer
+      board: BaseComputerTabletopWorkstationCircuitBoard
   - type: Sprite
     sprite: _Ronstation/Structures/Machines/workstation_computer.rsi
     layers:
