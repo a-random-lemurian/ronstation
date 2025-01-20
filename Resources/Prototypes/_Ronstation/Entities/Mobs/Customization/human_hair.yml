@@ -1,0 +1,21 @@
+- type: marking
+  id: HumanHairFluffy
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: Ronstation/Mobs/Customization/human_hair.rsi
+      state: fluffy
+- type: marking
+  id: HumanHairMarisa
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Ronstation/Mobs/Customization/human_hair.rsi
+      state: marisa
+- type: marking
+  id: HumanHairClassicMarisa
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Ronstation/Mobs/Customization/human_hair.rsi
+      state: classicmarisa
