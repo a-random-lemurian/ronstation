@@ -12,4 +12,10 @@
   sprites:
     - sprite: _Ronstation/Mobs/Customization/human_hair.rsi
       state: marisa
-
+- type: marking
+  id: HumanHairClassicMarisa
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Ronstation/Mobs/Customization/human_hair.rsi
+      state: classicmarisa
