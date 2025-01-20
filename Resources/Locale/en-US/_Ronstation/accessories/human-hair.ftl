@@ -1,2 +1,2 @@
 marking-HumanHairMarisa = Marisa
-marking-HumanHairClassicMarisa = Marisa
+marking-HumanHairClassicMarisa = Classic Marisa
