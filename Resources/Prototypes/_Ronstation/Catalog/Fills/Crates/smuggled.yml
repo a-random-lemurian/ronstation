@@ -7,101 +7,101 @@
   - type: StorageFill
     contents:
     #Humanoid
-        - id: OrganDwarfHeart
-        prob: 0.2
-        orGroup: Humanoid
-        - id: OrganDwarfLiver
-        prob: 0.2
-        orGroup: Humanoid
-        - id: OrganDwarfStomach
-        prob: 0.2
-        orGroup: Humanoid
-        - id: OrganHumanTongue
-        prob: 0.2
-        orGroup: Humanoid
-        - id: OrganHumanEyes
-        prob: 0.2
-        orGroup: Humanoid
-        - id: OrganHumanEars
-        prob: 0.2
-        orGroup: Humanoid
-        - id: OrganHumanLungs
-        prob: 0.2
-        orGroup: Humanoid
-        - id: OrganHumanHeart
-        prob: 0.2
-        orGroup: Humanoid
-        - id: OrganHumanStomach
-        prob: 0.2
-        orGroup: Humanoid
-        - id: OrganHumanLiver
-        prob: 0.2
-        orGroup: Humanoid
-        - id: OrganHumanKidneys
-        prob: 0.2
-        orGroup: Humanoid
+    - id: OrganDwarfHeart
+      prob: 0.2
+      orGroup: Humanoid
+    - id: OrganDwarfLiver
+      prob: 0.2
+      orGroup: Humanoid
+    - id: OrganDwarfStomach
+      prob: 0.2
+      orGroup: Humanoid
+    - id: OrganHumanTongue
+      prob: 0.2
+      orGroup: Humanoid
+    - id: OrganHumanEyes
+      prob: 0.2
+      orGroup: Humanoid
+    - id: OrganHumanEars
+      prob: 0.2
+      orGroup: Humanoid
+    - id: OrganHumanLungs
+      prob: 0.2
+      orGroup: Humanoid
+    - id: OrganHumanHeart
+      prob: 0.2
+      orGroup: Humanoid
+    - id: OrganHumanStomach
+      prob: 0.2
+      orGroup: Humanoid
+    - id: OrganHumanLiver
+      prob: 0.2
+      orGroup: Humanoid
+    - id: OrganHumanKidneys
+      prob: 0.2
+      orGroup: Humanoid
     #Alien
-        - id: OrganMothStomach
-        prob: 0.1
-        orGroup: Alien
-        - id: OrganReptillianStomach
-        prob: 0.1
-        orGroup: Alien
-        - id: OrganSlimeLungs
-        prob: 0.1
-        orGroup: Alien
-        - id: OrganVoxLungs
-        prob: 0.1
-        orGroup: Alien
-        - id: OrganDionaEyes
-        prob: 0.1
-        orGroup: Alien
-        - id: OrganDionaStomach
-        prob: 0.1
-        orGroup: Alien
-        - id: OrganDionaLungs
-        prob: 0.1
-        orGroup: Alien
-        - id: OrganArachnidHeart
-        prob: 0.1
-        orGroup: Alien
-        - id: OrganArachnidLungs
-        prob: 0.1
-        orGroup: Alien
-        - id: OrganArachnidLiver
-        prob: 0.1
-        orGroup: Alien
-        - id: OrganArachnidKidneys
-        prob: 0.1
-        orGroup: Alien
-        - id: OrganArachnidEyes
-        prob: 0.1
-        orGroup: Alien
-        - id: OrganArachnidTongue
-        prob: 0.1
-        orGroup: Alien
+    - id: OrganMothStomach
+      prob: 0.1
+      orGroup: Alien
+    - id: OrganReptillianStomach
+      prob: 0.1
+      orGroup: Alien
+    - id: OrganSlimeLungs
+      prob: 0.1
+      orGroup: Alien
+    - id: OrganVoxLungs
+      prob: 0.1
+      orGroup: Alien
+    - id: OrganDionaEyes
+      prob: 0.1
+      orGroup: Alien
+    - id: OrganDionaStomach
+      prob: 0.1
+      orGroup: Alien
+    - id: OrganDionaLungs
+      prob: 0.1
+      orGroup: Alien
+    - id: OrganArachnidHeart
+      prob: 0.1
+      orGroup: Alien
+    - id: OrganArachnidLungs
+      prob: 0.1
+      orGroup: Alien
+    - id: OrganArachnidLiver
+      prob: 0.1
+      orGroup: Alien
+    - id: OrganArachnidKidneys
+      prob: 0.1
+      orGroup: Alien
+    - id: OrganArachnidEyes
+      prob: 0.1
+      orGroup: Alien
+    - id: OrganArachnidTongue
+      prob: 0.1
+      orGroup: Alien
     #Bioengineered
-        - id: OrganJoywire
-        prob: 0.05
-        orGroup: Bioengineered
-        - id: OrganDetoxifier
-        prob: 0.05
-        orGroup: Bioengineered
-        - id: OrganThermalEyes
-        prob: 0.05
-        orGroup: Bioengineered
-        - id: OrganCombatImplant
-        prob: 0.05
-        orGroup: Bioengineered
-        - id: OrganIPCEyes
-        prob: 0.1
-        orGroup: Bioengineered
-        - id: OrganIPCTongue
-        prob: 0.1
-        orGroup: Bioengineered
-        - id: OrganIPCEars
-        prob: 0.1
-        orGroup: Bioengineered
-        - id: OrganIPCPump
-        prob: 0.1
-        orGroup: Bioengineered
+    - id: OrganJoywire
+      prob: 0.05
+      orGroup: Bioengineered
+    - id: OrganDetoxifier
+      prob: 0.05
+      orGroup: Bioengineered
+    - id: OrganThermalEyes
+      prob: 0.05
+      orGroup: Bioengineered
+    - id: OrganCombatImplant
+      prob: 0.05
+      orGroup: Bioengineered
+    - id: OrganIPCEyes
+      prob: 0.1
+      orGroup: Bioengineered
+    - id: OrganIPCTongue
+      prob: 0.1
+      orGroup: Bioengineered
+    - id: OrganIPCEars
+      prob: 0.1
+      orGroup: Bioengineered
+    - id: OrganIPCPump
+      prob: 0.1
+      orGroup: Bioengineered
