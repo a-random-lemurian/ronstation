@@ -17,8 +17,6 @@
   parent: OrganSmuggledBase
   description: A nerve-like gland that pulsates with joy. A marvel of Sol Bio-engineering.
   components:
-  - type: Sprite
-    state: nerve
   - type: Organ
     onAdd:
     - !type:ChemAddMoodlet
@@ -59,8 +57,6 @@
   parent: OrganSmuggledBase
   description: A small winch rotates inside, with a never-ending mechanical hum.
   components:
-  - type: Organ
-    slotId: Liver
     onAdd:
     - type: PassiveDamage
       allowedStates:
@@ -82,8 +78,6 @@
   parent: OrganSmuggledBase
   description: Glowing hot wires arranged inside two plesti-glass containers, to stimulate the senses.
   components:
-  - type: Sprite
-    state: nerve
   - type: Organ
     slotId: eyes
     onAdd:
