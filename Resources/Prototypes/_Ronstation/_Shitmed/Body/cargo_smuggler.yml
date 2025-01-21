@@ -93,6 +93,6 @@
     color: "#8b000b"
     activateSound: null
     deactivateSound: null
-    - type: FlashImmunity
+  - type: FlashImmunity
   - type: Eyes
       
