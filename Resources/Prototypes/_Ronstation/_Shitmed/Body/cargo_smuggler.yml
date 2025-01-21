@@ -1,0 +1,98 @@
+- type: entity
+  id: OrganSmuggledBase
+  parent: OrganHumanHeart
+  name: unidentified organ
+  categories: [ HideSpawnMenu ]
+  abstract: true
+  description: Smuggled from another sector, bought by you.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/Mobs/Species/Human/organs.rsi
+    state: muscle
+  - type: Extractable
+    grindableSolutionName: organ
+
+- type: entity
+  id: OrganJoywire
+  parent: OrganSmuggledBase
+  description: A nerve-like gland that pulsates with joy. A marvel of Sol Bio-engineering.
+  components:
+  - type: Sprite
+    state: nerve
+  - type: Organ
+    onAdd:
+    - !type:ChemAddMoodlet
+      moodPrototype: JoywireBenefit
+    - !type:MovespeedModifier
+      walkSpeedModifier: 0.90
+      sprintSpeedModifier: 0.90
+
+- type: entity
+  id: OrganCombatImplant
+  parent: OrganSmuggledBase
+  description: Several machine-like outlooks hiding in between fibers of flesh.
+  components:
+  - type: Organ
+    slotId: heart
+    onAdd:
+    - type: PassiveDamage
+      allowedStates:
+      - Alive
+      - Critical
+      damageCap: 150
+      damage:
+        groups:
+          Brute: -0.15
+          Airloss: -0.15
+          Burn: -0.05
+  - type: Heart
+  - type: Metabolizer
+    maxReagents: 3
+    metabolizerTypes: [Human]
+    groups:
+    - id: Medicine
+    - id: Poison
+    - id: Narcotic
+
+- type: entity
+  id: OrganDetoxifier
+  parent: OrganSmuggledBase
+  description: A small winch rotates inside, with a never-ending mechanical hum.
+  components:
+  - type: Organ
+    slotId: Liver
+    onAdd:
+    - type: PassiveDamage
+      allowedStates:
+      - Critical
+      damage:
+        groups:
+          Toxin: -0.15
+          Airloss: -0.05
+  - type: Liver
+  - type: Metabolizer
+    maxReagents: 1
+    metabolizerTypes: [Human]
+    groups:
+    - id: Alcohol
+      rateModifier: 0.5
+
+- type: entity
+  id: OrganThermalEyes
+  parent: OrganSmuggledBase
+  description: Glowing hot wires arranged inside two plesti-glass containers, to stimulate the senses.
+  components:
+  - type: Sprite
+    state: nerve
+  - type: Organ
+    slotId: eyes
+    onAdd:
+    - type: ThermalVision
+    isActive: true
+    lightRadius: 10
+    color: "#8b000b"
+    activateSound: null
+    deactivateSound: null
+    - type: FlashImmunity
+  - type: Eyes
+      
