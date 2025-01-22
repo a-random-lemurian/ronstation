@@ -80,8 +80,7 @@
   components:
   - type: Organ
     slotId: eyes
-    onAdd:
-    - type: ThermalVision
+  - type: ThermalVision
     isActive: true
     lightRadius: 10
     color: "#8b000b"
