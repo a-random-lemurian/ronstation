@@ -87,9 +87,6 @@
     - id: OrganDetoxifier
       prob: 0.05
       orGroup: Bioengineered
-    - id: OrganThermalEyes
-      prob: 0.05
-      orGroup: Bioengineered
     - id: OrganCombatImplant
       prob: 0.05
       orGroup: Bioengineered

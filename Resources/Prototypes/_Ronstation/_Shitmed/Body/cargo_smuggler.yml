@@ -72,20 +72,3 @@
     groups:
     - id: Alcohol
       rateModifier: 0.5
-
-- type: entity
-  id: OrganThermalEyes
-  parent: OrganSmuggledBase
-  description: Glowing hot wires arranged inside two plesti-glass containers, to stimulate the senses.
-  components:
-  - type: Organ
-    slotId: eyes
-  - type: ThermalVision
-    isActive: true
-    lightRadius: 10
-    color: "#8b000b"
-    activateSound: null
-    deactivateSound: null
-  - type: FlashImmunity
-  - type: Eyes
-      
