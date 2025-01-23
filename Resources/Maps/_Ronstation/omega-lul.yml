@@ -7952,7 +7952,7 @@ entities:
       pos: -15.5,-2.5
       parent: 4812
     - type: Door
-      secondsUntilStateChange: -2220.404
+      secondsUntilStateChange: -2278.3203
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -80297,6 +80297,18 @@ entities:
     - type: Transform
       pos: 16.5,34.5
       parent: 4812
+- proto: SpawnPointResearchAssistant
+  entities:
+  - uid: 14624
+    components:
+    - type: Transform
+      pos: 10.5,-21.5
+      parent: 4812
+  - uid: 14625
+    components:
+    - type: Transform
+      pos: 9.5,-21.5
+      parent: 4812
 - proto: SpawnPointResearchDirector
   entities:
   - uid: 6305
@@ -80395,7 +80407,7 @@ entities:
   - uid: 14545
     components:
     - type: Transform
-      pos: 31.5,-30.5
+      pos: 10.5,-20.5
       parent: 4812
 - proto: SpawnPointServiceWorker
   entities:
