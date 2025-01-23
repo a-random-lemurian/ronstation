@@ -9,8 +9,6 @@
   - type: Sprite
     sprite: Resources/Textures/Mobs/Species/Human/organs.rsi
     state: muscle
-  - type: Extractable
-    grindableSolutionName: organ
 
 - type: entity
   id: OrganJoywire
@@ -65,7 +63,6 @@
         groups:
           Toxin: -0.15
           Airloss: -0.05
-  - type: Liver
   - type: Metabolizer
     maxReagents: 1
     metabolizerTypes: [Human]
