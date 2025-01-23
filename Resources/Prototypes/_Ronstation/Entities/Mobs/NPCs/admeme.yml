@@ -29,7 +29,6 @@
     allowedEmotes: ['Chitter', 'Squeak']
   - type: FaxableObject
     insertingState: inserting_mothroach
-  - type: MothAccent
   - type: Sprite
     sprite: Mobs/Abominations/crump.rsi
   - type: Item
