@@ -41,14 +41,6 @@
           Brute: -0.15
           Airloss: -0.15
           Burn: -0.05
-  - type: Heart
-  - type: Metabolizer
-    maxReagents: 3
-    metabolizerTypes: [Human]
-    groups:
-    - id: Medicine
-    - id: Poison
-    - id: Narcotic
 
 - type: entity
   id: OrganDetoxifier
@@ -63,9 +55,3 @@
         groups:
           Toxin: -0.15
           Airloss: -0.05
-  - type: Metabolizer
-    maxReagents: 1
-    metabolizerTypes: [Human]
-    groups:
-    - id: Alcohol
-      rateModifier: 0.5
