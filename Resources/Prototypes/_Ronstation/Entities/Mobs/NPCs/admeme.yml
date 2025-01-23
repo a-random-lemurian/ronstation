@@ -1,0 +1,153 @@
+- type: entity
+  name: my son crump
+  parent: MobCockroach
+  id: MobAdmemeCrump
+  suffix: Crump
+  description: This is my son crump. Do you like him? He knows. He knows because you know. You're in trouble. Crump knows what you did.
+  components:
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: ghost-role-information-mothroach-name
+    description: ghost-role-information-mothroach-description
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.2
+        density: 0.007
+        mask:
+        - SmallMobMask
+        layer:
+        - SmallMobLayer
+  - type: GhostTakeoverAvailable
+  - type: Speech
+    speechVerb: Moth
+    speechSounds: Chitter
+    allowedEmotes: ['Chitter', 'Squeak']
+  - type: FaxableObject
+    insertingState: inserting_mothroach
+  - type: MothAccent
+  - type: Sprite
+    sprite: Mobs/Abominations/crump.rsi
+  - type: Item
+    size: Normal
+  - type: Appearance
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: crump
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      500: Critical
+      550: Dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 1
+    baseSprintSpeed : 7.5
+    weightlessAcceleration: 1.5
+    weightlessFriction: 1
+    weightlessModifier: 1
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Moth
+  - type: Bloodstream
+    bloodReagent: SpaceLube
+    bloodMaxVolume: 500
+  - type: Insulated
+  - type: CombatMode
+  - type: MeleeWeapon
+    soundHit:
+      collection: Punch
+    animation: WeaponArcFist
+    damage:
+      types:
+        Genetic: 500
+        Blunt: 500
+  - type: NPCRetaliation
+  - type: Butcherable
+    spawned:
+    - id: HideMothroach
+      amount: 1
+  - type: Extractable
+    grindableSolutionName: food
+  - type: LanguageKnowledge # He knows all.
+    speaks:
+    - Moffic
+    - RobotTalk
+    - Sign
+    - Rootspeak
+    - Nekomimetic
+    - Draconic
+    - Azaziba
+    - Bubblish
+    - Eldritch
+    - Codespeak
+    - Vox
+    - Elyran
+    - Tradeband
+    - TauCetiBasic
+    - SolCommon
+    understands:
+    - RobotTalk
+    - Sign
+    - Rootspeak
+    - Nekomimetic
+    - Draconic
+    - Azaziba
+    - Bubblish
+    - Eldritch
+    - Codespeak
+    - Vox
+    - Elyran
+    - Tradeband
+    - TauCetiBasic
+    - SolCommon
+    - Moffic
+    - Dog
+    - Cat
+    - Fox
+    - Xeno
+    - Monkey
+    - Mouse
+    - Chicken
+    - Duck
+    - Cow
+    - Sheep
+    - Kangaroo
+    - Pig
+    - Crab
+    - Kobold
+    - Hissing
+    - Penguin
+  - type: ZombieAccentOverride
+    accent: zombieMoth
+  - type: Vocal
+    sounds:
+      Male: UnisexMoth
+      Female: UnisexMoth
+      Unsexed: UnisexMoth
+    wilhelmProbability: 0.1
+  - type: MobPrice
+    price: 318211316
+  - type: Tag
+    tags:
+    - Trash
+    - CannotSuicide
+    - VimPilot
+  - type: CanEscapeInventory
+  - type: NpcFactionMember
+    factions:
+    - Passive
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: Body
+    prototype: Mothroach
+  - type: TypingIndicator
+    proto: moth
+  - type: FireVisuals
+    sprite: Mobs/Effects/onfire.rsi
+    normalState: Mouse_burning

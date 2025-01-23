@@ -1,0 +1,19 @@
+- type: cargoProduct
+  id: MedicalSmuggledOrgans
+  icon:
+    sprite: Resources/Textures/Mobs/Species/Human/organs.rsi
+    state: stomach
+  product: CrateSmuggledOrgans
+  cost: 6500
+  category: cargoproduct-category-name-medical
+  group: market
+
+- type: cargoProduct
+  id: SmuggledWeaponry
+  icon:
+    sprite: Structures/Machines/bomb.rsi
+    state: training-bomb
+  product: CrateSmuggledWeaponry
+  cost: 17500
+  category: cargoproduct-category-name-cargo
+  group: market

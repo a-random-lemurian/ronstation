@@ -1,9 +1,0 @@
-- type: cargoProduct
-  id: MedicalSmuggledOrgans
-  icon:
-    sprite: Resources/Textures/Mobs/Species/Human/organs.rsi
-    state: stomach
-  product: CrateSmuggledOrgans
-  cost: 20000
-  category: cargoproduct-category-name-medical
-  group: market
