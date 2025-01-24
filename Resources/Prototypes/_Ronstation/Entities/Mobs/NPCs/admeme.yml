@@ -2,7 +2,7 @@
   name: my son crump
   parent: MobCockroach
   id: MobAdmemeCrump
-  suffix: Crump
+  suffix: Admeme, Crump
   description: This is my son crump. Do you like him? He knows. He knows because you know. You're in trouble. Crump knows what you did.
   components:
   - type: GhostRole
@@ -135,7 +135,6 @@
     tags:
     - Trash
     - CannotSuicide
-    - VimPilot
   - type: CanEscapeInventory
   - type: NpcFactionMember
     factions:
