@@ -193,7 +193,6 @@
       prob: 0.1
       orGroup: Alien
     #Bioengineered
-      orGroup: Bioengineered
     - id: BasicCyberneticEyes
       prob: 0.1
       orGroup: Bioengineered
