@@ -1,5 +1,5 @@
 - type: entity
-  id: SmuggledWeaponry
+  id: ArmorySmuggledWeaponry
   parent: CratePrivateSecure
   name: unmarked crate
   description: An unmarked crate. The identification numbers have been scratched off.
@@ -69,9 +69,6 @@
     - id: WeaponSubMachineGunC20r
       prob: 0.03
       orGroup: Syndicate
-    - id: WeaponRifleAK
-      prob: 0.03
-      orGroup: Syndicate
     - id: WeaponRevolverPython
       prob: 0.03
       orGroup: Syndicate
@@ -95,9 +92,6 @@
       prob: 0.01
       orGroup: CentralCommand
     - id: WeaponRevolverArgenti
-      prob: 0.01
-      orGroup: CentralCommand
-    - id: WeaponRevolverN1984
       prob: 0.01
       orGroup: CentralCommand
     - id: WeaponMinigun
@@ -148,9 +142,6 @@
       orGroup: Humanoid
     #Alien
     - id: OrganMothStomach
-      prob: 0.15
-      orGroup: Alien
-    - id: OrganReptillianStomach
       prob: 0.15
       orGroup: Alien
     - id: OrganSlimeLungs
