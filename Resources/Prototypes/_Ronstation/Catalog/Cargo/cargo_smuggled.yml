@@ -1,8 +1,8 @@
 - type: cargoProduct
   id: SmuggledOrgans
   icon:
-    sprite: Resources/Textures/Mobs/Species/Human/organs.rsi
-    state: stomach
+    sprite: Objects/Specific/Medical/Surgery/cautery.rsi
+    state: cautery
   product: MedicalSmuggledOrgans
   cost: 7500
   category: cargoproduct-category-name-medical
