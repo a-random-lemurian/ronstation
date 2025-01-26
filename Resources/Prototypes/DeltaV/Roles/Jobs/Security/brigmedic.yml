@@ -4,8 +4,8 @@
   description: job-description-brigmedic
   playTimeTracker: JobBrigmedic
   requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Medical
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobParamedic
       min: 21600 # 6 hrs
     - !type:CharacterDepartmentTimeRequirement
       department: Security
