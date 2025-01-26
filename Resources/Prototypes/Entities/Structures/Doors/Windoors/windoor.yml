@@ -1,7 +1,7 @@
 - type: entity
   id: Windoor
   parent: BaseWindoor
-  name: Windoor
+  name: Glass Windoor
   description: It's a window and a sliding door. Wow!
 
 - type: entity

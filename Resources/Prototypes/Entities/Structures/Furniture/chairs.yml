@@ -99,7 +99,7 @@
     anchored: true
 
 - type: entity
-  name: chair
+  name: steel chair
   id: Chair
   parent: ChairBase
   components:
@@ -110,7 +110,7 @@
     node: chair
 
 - type: entity
-  name: chair
+  name: steel chair
   id: ChairGreyscale
   parent: Chair
   suffix: White

@@ -1,2 +1,1 @@
-marking-HumanHairFluffyHair = Fluffy
-marking-HumanHairMarisaHair = Marisa
+marking-HumanHairFluffy = Fluffy

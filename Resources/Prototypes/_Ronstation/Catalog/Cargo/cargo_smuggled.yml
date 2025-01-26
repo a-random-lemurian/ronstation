@@ -1,0 +1,19 @@
+- type: cargoProduct
+  id: SmuggledOrgans
+  icon:
+    sprite: Objects/Specific/Medical/Surgery/cautery.rsi
+    state: cautery
+  product: MedicalSmuggledOrgans
+  cost: 7500
+  category: cargoproduct-category-name-medical
+  group: market
+
+- type: cargoProduct
+  id: SmuggledWeaponry
+  icon:
+    sprite: Structures/Machines/bomb.rsi
+    state: training-bomb
+  product: ArmorySmuggledWeaponry
+  cost: 17500
+  category: cargoproduct-category-name-armory
+  group: market
