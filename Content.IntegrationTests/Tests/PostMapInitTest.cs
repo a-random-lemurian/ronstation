@@ -69,6 +69,7 @@ namespace Content.IntegrationTests.Tests
             "Rad",
             "Europa",
             "Meta",
+            "Box",
             "Saltern-2", //Ronstation
             "Omega-Lul", //Ronstation
             "Atlas-B", //Ronstation

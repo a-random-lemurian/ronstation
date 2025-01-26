@@ -4,12 +4,6 @@
   antagonist: true
   setPreference: true
   objective: roles-antag-nuclear-operative-objective
-  requirements:
-  - !type:CharacterOverallTimeRequirement
-    min: 108000 # DeltaV - 30 hours
-  - !type:CharacterDepartmentTimeRequirement # DeltaV - Security dept time requirement
-    department: Security
-    min: 36000 # DeltaV - 10 hours
 
 - type: antag
   id: NukeopsMedic
@@ -17,12 +11,6 @@
   antagonist: true
   setPreference: true
   objective: roles-antag-nuclear-operative-agent-objective
-  requirements:
-  - !type:CharacterOverallTimeRequirement
-    min: 108000 #  30 hours
-  - !type:CharacterDepartmentTimeRequirement
-    department: Medical
-    min: 36000 # 10 hours
 
 - type: antag
   id: NukeopsCommander
@@ -44,6 +32,8 @@
 #Lone Operative Gear
 - type: startingGear
   id: SyndicateLoneOperativeGearFull
+  subGear:
+  - SyndicatePlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitOperative
     back: ClothingBackpackDuffelSyndicateOperative
