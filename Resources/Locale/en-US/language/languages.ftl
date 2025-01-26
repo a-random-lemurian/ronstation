@@ -28,9 +28,6 @@ language-TauCetiBasic-description =
     Its unique, fully customized alphabet and structure allow it to be spoken even by most alien species.
     It's the official language of Tau Ceti and has growing traction in diplomatic circles and Universalists across human space.
 
-language-Sign-name = Tau-Ceti Basic Sign Language
-language-Sign-description = TCB-SL for short, this sign language is prevalent among mute and deaf people.
-
 language-Canilunzt-name = Canilunzt
 language-Canilunzt-description =
     The guttural language spoken and utilized by the inhabitants of the Vazzend system,
