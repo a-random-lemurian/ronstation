@@ -11,6 +11,15 @@
       tracker: JobDetective
       min: 10800 # Ronstation - 3 hours
     #- !type:CharacterWhitelistRequirement
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+        - Muted
+        - Blindness
+        - Pacifist
+        - BrittleBoneDisease
   startingGear: WardenGear
   icon: "JobIconWarden"
   supervisors: job-supervisors-hos

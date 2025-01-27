@@ -22,6 +22,24 @@
     #      inverted: true
     #      species:
     #        - Shadowkin
+    #- !type:CharacterLogicOrRequirement
+    #  requirements:
+    #    - !type:CharacterSpeciesRequirement
+    #      inverted: true
+    #      species:
+    #        - IPC
+    #    - !type:CharacterTraitRequirement
+    #      traits:
+    #        - AnomalousPositronics
+    #- !type:CharacterLogicOrRequirement
+    #  requirements:
+    #    - !type:CharacterSpeciesRequirement
+    #      species:
+    #        - Shadowkin
+    #    - !type:CharacterTraitRequirement
+    #      inverted: true
+    #      traits:
+    #        - ShadowkinBlackeye
   startingGear: ChaplainGear
   icon: "JobIconChaplain"
   supervisors: job-supervisors-hop # Ronstation - Change supervisor to head of personnel

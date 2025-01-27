@@ -16,6 +16,15 @@
     - !type:CharacterOverallTimeRequirement
       min: 90000 # DeltaV - 25 hours
   #  - !type:CharacterWhitelistRequirement
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+        - Muted
+        - Blindness
+        - Pacifist
+        - BrittleBoneDisease
   weight: 10
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"

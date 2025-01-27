@@ -4,6 +4,23 @@
   description: job-description-qm
   playTimeTracker: JobQuartermaster
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
+  requirements:
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobCargoTechnician
+      min: 21600 #6 hrs
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobSalvageSpecialist
+      min: 10800 #3 hrs
+    - !type:CharacterepartmentTimeRequirement
+      department: Cargo
+      min: 36000 #10 hours
+    - !type:CharacterOverallTimeRequirement
+      min: 126000 # Ronstation - 35 hours
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
   weight: 10
   startingGear: QuartermasterGear
   icon: "JobIconQuarterMaster"

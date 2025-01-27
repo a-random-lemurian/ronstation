@@ -25,6 +25,12 @@
     - !type:CharacterOverallTimeRequirement # Ronstation - Playtime requirement
       min: 126000 # Ronstation - 35 hours
     #- !type:CharacterWhitelistRequirement
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+        - Pacifist
   weight: 20
   startingGear: CaptainGear
   icon: "JobIconCaptain"

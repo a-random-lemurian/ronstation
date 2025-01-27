@@ -22,6 +22,10 @@
   #        inverted: true
   #        species:
   #          - Shadowkin
+  #  - !type:CharacterTraitRequirement
+  #    inverted: true
+  #    traits:
+  #      - ShadowkinBlackeye
   startingGear: LibrarianGear
   icon: "JobIconLibrarian"
   supervisors: job-supervisors-rd
