@@ -15,6 +15,7 @@
       traits:
         - Foreigner
         - ForeignerLight
+    - !type:CharacterWhitelistRequirement # Ronstation- Whitelist requirement due to being the same as chief justice.
   weight: 20
   startingGear: MagistrateGear
   icon: "JobIconMagistrate"
