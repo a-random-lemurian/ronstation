@@ -11,7 +11,7 @@
       department: Epistemics # DeltaV - Epistemics Department replacing Science
       min: 3600
     - !type:CharacterLogicOrRequirement
-  #    requirements:
+      requirements:
   #      - !type:CharacterSpeciesRequirement
   #        inverted: true
   #        species:
@@ -23,10 +23,10 @@
           inverted: true
           traits:
             - Pacifist
-        - !type:CharacterTraitRequirement
-          inverted: true
-          traits:
-            - ShadowkinBlackeye
+  #      - !type:CharacterTraitRequirement
+  #        inverted: true
+  #        traits:
+  #          - ShadowkinBlackeye
   startingGear: ForensicMantisGear
   icon: "JobIconForensicMantis"
   supervisors: job-supervisors-rd
