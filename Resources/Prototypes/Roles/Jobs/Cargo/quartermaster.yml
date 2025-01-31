@@ -12,7 +12,7 @@
       tracker: JobSalvageSpecialist
       min: 10800 #3 hrs
     - !type:CharacterDepartmentTimeRequirement
-      department: Cargo
+      department: Logistics
       min: 36000 #10 hours
     - !type:CharacterOverallTimeRequirement
       min: 126000 # Ronstation - 35 hours
