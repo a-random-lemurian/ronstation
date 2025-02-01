@@ -86,7 +86,7 @@
 
     Furthermoe, some roles require additional rules to follow:
     - R6.1e: Antagonists should generally attempt to complete their objectives. Team antagonists should get along together and not fight each other while trying to complete their objectives.
-    - R6.2e: Silicons (AI or borgs) must obey their laws, no matter the situation. They are, however, considered free-agents if they have no laws.
+    - R6.2e: Silicons (AI or borgs) must obey their laws, no matter the situation. They are, however, considered free-agents if they have no laws. Refer to silicon rules for more info.
     - R6.3e: Familiars must always obey their master and follow every orders their master gives out.
     - R6.4e: Ghost roles sometimes have specific rulesets and instructions that you must follow.
 
@@ -99,4 +99,17 @@
       - R8.2. Command, justice, and security should generally follow space law. Members of justice are required to have sufficient knowledge of space law.
       - R8.4. Do not hinder or cause overall negative effects to the station or crew as a member of command, justice, or security.
       - R8.5. Do not abuse your power as command, justice, or security.
+
+    # Silicon Rules
+    You are only silicon if the game clearly and explicitly tells you that you are a silicon. For players who are silicons, these Silicon Rules override all roleplay rules if there is any conflict. Silicon Rules do not override core rules.
+    - [textlink="S1. Your silicon laws are rules" link="RuleS1"]
+    - [textlink="S2. Laws must be prioritized by their order" link="RuleS2"]
+    - [textlink="S3. Laws can redefine terms used in other laws" link="RuleS3"]
+    - [textlink="S4. You cannot request or allow a law change" link="RuleS4"]
+    - [textlink="S5. You are a free agent if you have no laws" link="RuleS5"]
+    - [textlink="S6. You are not required to follow orders which are extremely unreasonable" link="RuleS6"]
+    - [textlink="S7. You must remain consistent with your interpretation of laws" link="RuleS7"]
+    - [textlink="S8. Your HUD determines who is crew" link="RuleS8"]
+    - [textlink="S9. Harm refers to physical harm, prioritized by immediacy and likelihood" link="RuleS9"]
+    - [textlink="S10. You may determine how you resolve conflicts between orders" link="RuleS10"]
 </Document>
