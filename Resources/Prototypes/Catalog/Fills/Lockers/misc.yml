@@ -25,6 +25,7 @@
       children:
       - id: EmergencyOxygenTankFilled
       - id: OxygenTankFilled
+    - !type:GroupSelector
       children:
       - id: EmergencyNitrogenTankFilled
       - id: NitrogenTankFilled
@@ -84,6 +85,7 @@
       children:
       - id: EmergencyOxygenTankFilled
       - id: OxygenTankFilled
+    - !type:GroupSelector
       children:
       - id: EmergencyNitrogenTankFilled
       - id: NitrogenTankFilled
