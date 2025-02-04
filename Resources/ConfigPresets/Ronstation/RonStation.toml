@@ -20,7 +20,7 @@ map_pool           = "RonstationMapPool"
 
 [hub]
 tags = "lang:en-US,region:am_n_e,rp:low"
-hub_urls = "https://web.networkgamez.com/, https://hub.singularity14.co.uk/", "https://hub.spacestation14.com/" #If anything changes, we could remove the official SS14 hub from this section.
+hub_urls = "https://web.networkgamez.com/, https://hub.singularity14.co.uk/, https://hub.spacestation14.com/" #If anything changes, we could remove the official SS14 hub from this section.
 
 [ic]
 flavor_text = true
@@ -58,7 +58,7 @@ map_enabled = true
 
 [shuttle]
 arrivals_map = "Maps/_Ronstation/Misc/terminal.yml"
-emergency_dock_time = 120f
+emergency_dock_time = 120
 
 [glimmer]
 enabled = false
