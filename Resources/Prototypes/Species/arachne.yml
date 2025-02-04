@@ -1,7 +1,7 @@
 - type: species
   id: Arachne
   name: species-name-arachne
-  roundStart: false # Ronstation - Race rework. "I'll kill these issues somehow."
+  roundStart: false # "I'll kill these issues somehow." # Ronstation - Race rework.
   prototype: MobArachne
   sprites: MobArachneSprites
   defaultSkinTone: "#c0967f"
