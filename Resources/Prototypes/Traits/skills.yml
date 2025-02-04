@@ -226,6 +226,7 @@
             - Reptilian # Ronstaiton - Race rework.
             - Human # Ronstaiton - Race rework.
             - Moth # Ronstaiton - Race rework.
+            - Plasmaman # Ronstation - Race Rework.
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -350,6 +351,7 @@
         - Reptilian # Ronstaiton - Race rework.
         - Human # Ronstaiton - Race rework.
         - Moth # Ronstaiton - Race rework.
+        - Plasmaman # Ronstaiton - Race rework.
 
 - type: trait
   id: AnimalFriend
