@@ -41,6 +41,7 @@
   - ResearchDirector
   - Mantis # DeltaV - Mantis, see Resources/Prototypes/DeltaV/Access/epistemics.yml
   #- Chapel # Ronstation - Chaplain is in Service
+  - External # DeltaV - AI satellite access
   - Cryogenics
   special: # Nyanotrasen - Mystagogue can use the Bible
   #- !type:AddComponentSpecial
