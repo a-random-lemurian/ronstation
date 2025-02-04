@@ -3,7 +3,7 @@
   alias:
   - bloodcult
   name: blood-cult-title
-  showInVote: true
+  showInVote: false # Ronstation - Game Preset Rework.
   description: blood-cult-description
   rules:
   - BloodCult
