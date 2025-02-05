@@ -6,7 +6,7 @@
   maxPlayers: 20
   stations:
     Atlas:
-      stationProto: StandardNanotrasenStation
+      stationProto: StandardNanotrasenStationNoATS
       components:
         - type: StationNameSetup
           mapNameTemplate: '{0} Atlas B {1}'
