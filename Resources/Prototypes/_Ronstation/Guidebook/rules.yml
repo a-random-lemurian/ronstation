@@ -2,3 +2,19 @@
   id: RonstationRuleset
   name: guide-entry-rules-ronstation
   text: "/ServerInfo/_Ronstation/Guidebook/ServerRules/RonstationRuleset.xml"
+  children:
+  - RonstationMetashield
+  - SiliconRules
+  - RonstationRoleTypes
+
+- type: guideEntry
+  id: RonstationMetashield
+  name: guide-entry-rules-ronstation-metashield
+  text: "/ServerInfo/_Ronstation/Guidebook/ServerRules/RonstationMetashield.xml"
+
+- type: guideEntry
+  id: RonstationRoleTypes
+  name: guide-entry-rules-role-types
+  ruleEntry: true
+  priority: 20
+  text: "/ServerInfo/_Ronstation/Guidebook/ServerRules/RoleTypes.xml"
