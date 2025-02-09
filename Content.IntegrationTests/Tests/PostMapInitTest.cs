@@ -70,6 +70,9 @@ namespace Content.IntegrationTests.Tests
             "Europa",
             "Meta",
             "Box",
+            "Lambda",
+            "Bagel",
+            "Northway",
             "Saltern-2", //Ronstation
             "Omega-Lul", //Ronstation
             "Atlas-B", //Ronstation
