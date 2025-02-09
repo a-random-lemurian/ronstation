@@ -5,7 +5,7 @@
   id: X4
   components:
   - type: Sprite
-    sprite: _Ronstation/Objects/Weapons/Bombs/seismic.rsi
+    sprite: _Ronstation/Objects/Weapons/Bombs/x4.rsi
     state: icon
     layers:
     - state: icon
