@@ -21,7 +21,7 @@
   - type: Anchorable
   - type: Construction
     graph: Workstation
-    node: frameUnsecured
+    node: workstationFrameUnsecured
   - type: Sprite
     drawdepth: Objects
   - type: Damageable
@@ -73,8 +73,8 @@
   description: This computer has seen better days.
   components:
   - type: Construction
-    graph: Computer
-    node: monitorBroken
+    graph: Workstation
+    node: workstationMonitorBroken
   - type: Sprite
     sprite: _Ronstation/Structures/Machines/workstation_computers.rsi
     drawdepth: Objects
