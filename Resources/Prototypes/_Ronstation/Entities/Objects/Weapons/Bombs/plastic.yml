@@ -5,11 +5,7 @@
   id: X4
   components:
   - type: Sprite
-<<<<<<< HEAD
-    sprite: Textures/_Ronstation/Objects/Weapons/Bombs/x4.rsi
-=======
-    sprite: _Ronstation/Objects/Weapons/Bombs/x4.rsi
->>>>>>> b3c5a2067a (gagahsfnfg)
+    sprite: _Ronstation/Objects/Weapons/Bombs/seismic.rsi
     state: icon
     layers:
     - state: icon
