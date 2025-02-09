@@ -699,6 +699,9 @@
     - !type:CharacterDepartmentRequirement
       departments:
         - Security
+    - !type:CharacterJobRequirement
+      jobs:
+        - Captain
   functions:
     - !type:TraitAddComponent
       components:
