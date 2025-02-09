@@ -28,7 +28,7 @@
   id: UplinkCarpetBomb
   name: uplink-carpet-bomb-name
   description: uplink-carpet-bomb-desc
-  productEntity: CarpetBomb
+  productEntity: CarpetGrenade
   cost:
     Telecrystal: 1
   categories:
@@ -36,4 +36,4 @@
   conditions:
     - !type:BuyerDepartmentCondition
       whitelist:
-      - Service
+      - Civilian
