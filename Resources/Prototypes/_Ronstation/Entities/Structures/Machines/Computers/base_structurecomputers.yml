@@ -1,13 +1,16 @@
 - type: entity
-  parent: BaseComputerModular
+  parent: BaseComputer
   id: BaseComputerTabletopWorkstation
   name: workstation
   description: An ancient-looking computer that can be put onto tables.
   components:
-  - type: Computer
-    board: BaseComputerTabletopWorkstationCircuitBoard
+  - type: Construction
+    graph: Workstation
+    node: workstation
+    containers:
+      - board
   - type: Sprite
-    sprite: _Ronstation/Structures/Machines/workstation_computer.rsi
+    sprite: _Ronstation/Structures/Machines/workstation_computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer
@@ -40,3 +43,12 @@
         - TabletopMachineMask
         layer:
         - TabletopMachineLayer
+
+- type: entity
+  parent: [ BaseComputerTabletopWorkstation, BaseComputerModular ]
+  id: BaseComputerTabletopWorkstationModular
+  name: modular workstation
+  description: An ancient-looking computer that can be put onto tables.
+  components:
+  - type: Computer
+    board: BaseComputerModularCircuitBoard

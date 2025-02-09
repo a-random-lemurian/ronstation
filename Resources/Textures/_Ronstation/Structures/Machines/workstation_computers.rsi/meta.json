@@ -8,11 +8,19 @@
   },
     "states": [
         {
+            "name": "broken",
+            "directions": 4
+        },
+        {
             "name": "computer",
             "directions": 4
         },
         {
-            "name": "screen_error",
+            "name": "screen_broken",
+            "directions": 4
+        },
+        {
+            "name": "error",
             "directions": 4
         },
         {
