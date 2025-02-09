@@ -24,7 +24,7 @@
   categories:
   - UplinkExplosives
 
-  - type: listing
+- type: listing
   id: UplinkCarpetBomb
   name: uplink-carpet-bomb-name
   description: uplink-carpet-bomb-desc
