@@ -535,6 +535,12 @@
         - Gladiator
     - !type:CharacterItemGroupRequirement
       group: TraitsMind
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+    - !type:CharacterJobRequirement
+      jobs:
+        - Captain
   functions:
     - !type:TraitAddComponent
       components:
@@ -685,7 +691,6 @@
       inverted: true
       jobs:
         - Prisoner # Bionics should be "Confiscated" from long term prisoners.
-        - Gladiator
     - !type:CharacterTraitRequirement
       traits:
         - CyberEyes
@@ -696,12 +701,6 @@
         - CyberEyesOmni
     - !type:CharacterItemGroupRequirement
       group: TraitsMind
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-    - !type:CharacterJobRequirement
-      jobs:
-        - Captain
   functions:
     - !type:TraitAddComponent
       components:
