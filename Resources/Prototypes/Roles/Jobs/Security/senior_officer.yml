@@ -21,7 +21,6 @@
       inverted: true
       traits:
         - Blindness
-        - Pacifist
         - BrittleBoneDisease
   startingGear: SeniorOfficerGear
   icon: "JobIconSeniorOfficer"
