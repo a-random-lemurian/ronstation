@@ -74,6 +74,9 @@ namespace Content.IntegrationTests.Tests
             "Omega-Lul", //Ronstation
             "Atlas-B", //Ronstation
             "Cluster-Funk" //Ronstation
+            "Lambda",
+            "Bagel",
+            "Northway"
         };
 
         /// <summary>
