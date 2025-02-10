@@ -51,4 +51,4 @@
   description: An ancient-looking computer that can be put onto tables.
   components:
   - type: Computer
-    board: BaseComputerModularCircuitBoard
+    board: BaseComputerModularTabletopWorkstationCircuitBoard

@@ -22,12 +22,12 @@
           conditions:
             - !type:EntityAnchored {}
           steps:
-            - component: ComputerBoard
+            - tag: WorkstationBoard
               store: board
-              name: any computer circuit board
+              name: any workstation circuit board
               icon:
-                sprite: "Objects/Misc/module.rsi"
-                state: "id_mod"
+                sprite: "_Ronstation/Objects/Misc/module.rsi"
+                state: "workstationboard"
 
         - to: start
           completed:
