@@ -17,9 +17,6 @@
 #      time: 72000 # DeltaV - 20 hours
     - !type:CharacterTraitRequirement
       inverted: true
-      traits:
-        - Foreigner
-        - ForeignerLight
   weight: 10
   startingGear: ChiefEngineerGear
   icon: "JobIconChiefEngineer"
