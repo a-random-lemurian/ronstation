@@ -73,7 +73,7 @@ namespace Content.IntegrationTests.Tests
             "Saltern-2", //Ronstation
             "Omega-Lul", //Ronstation
             "Atlas-B", //Ronstation
-            "Cluster-Funk" //Ronstation
+            "Cluster-Funk", //Ronstation
             "Lambda",
             "Bagel",
             "Northway"
