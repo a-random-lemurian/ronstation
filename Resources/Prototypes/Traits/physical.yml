@@ -535,12 +535,17 @@
         - Gladiator
     - !type:CharacterItemGroupRequirement
       group: TraitsMind
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
     - !type:CharacterJobRequirement
       jobs:
         - Captain
+        - BlueshieldOfficer
+        - HeadOfSecurity
+        - Warden
+        - Brigmedic
+        - Detective
+        - SeniorOfficer
+        - SecurityOfficer
+        - SecurityCadet
   functions:
     - !type:TraitAddComponent
       components:
