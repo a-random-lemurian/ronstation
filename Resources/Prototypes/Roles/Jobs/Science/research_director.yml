@@ -23,8 +23,6 @@
     #      inverted: true
     #      traits:
     #        - ShadowkinBlackeye
-    - !type:CharacterTraitRequirement
-      inverted: true
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"
