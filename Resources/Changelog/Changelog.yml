@@ -11523,3 +11523,82 @@ Entries:
   id: 6831
   time: '2025-02-10T08:59:40.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1754
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Station AI can now helpfully assist by configuring the station's Atmos
+        system, in order to provide crew with breathable oxygen, and definitely
+        not anything malicious. You can also now ask the AI to assist with the
+        station's power by having it turn on or off the supermatter for safe
+        operation.
+    - type: Add
+      message: >-
+        The Mystagogue's locker now starts with an AI Upload circuitboard, as
+        well as 4 basic AI lawset chips in his locker.
+  id: 6832
+  time: '2025-02-10T18:30:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1761
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Added functionality for "Permanent" lawsets that cannot be removed by
+        the AI Upload. Currently used by ANTIMOV, which is needed for the MALF
+        AI Antagonist.
+  id: 6833
+  time: '2025-02-10T18:30:59.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1762
+- author: EctoplasmIsGood
+  changes:
+    - type: Tweak
+      message: removed LoadoutSecurityWeapons tag from the chester
+  id: 6834
+  time: '2025-02-10T23:45:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1764
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Added access configurators to all engineering lockers.
+    - type: Add
+      message: Added autolathe recipe for the access configurator.
+    - type: Tweak
+      message: >-
+        Many Tool recipes have had their material costs tweaked to make use of
+        new materials such as Aluminum and Circuitry.
+    - type: Remove
+      message: >-
+        The Head of Personnel no longer starts with an access configurator in
+        their locker.
+  id: 6835
+  time: '2025-02-11T15:49:58.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1758
+- author: Ichai
+  changes:
+    - type: Tweak
+      message: StationAI is now affected by ion storm (for real now)
+  id: 6836
+  time: '2025-02-11T19:26:07.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1766
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Added job spawns for all 4 Senior roles on Lambda Station
+    - type: Add
+      message: >-
+        Lambda Station now has 3 AI job slots. What? It literally has the
+        largest AI satellite of any map we have in rotation. Seriously it has an
+        AI Sat the size of fucking Shoko. Of course it should have more than one
+        AI slot. This thing is INSANE.
+    - type: Fix
+      message: Fixed arrivals being LOCKED on Lambda Station
+  id: 6837
+  time: '2025-02-11T19:26:32.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1753
+- author: EctoplasmIsGood
+  changes:
+    - type: Fix
+      message: Fixed arachne noslip
+  id: 6838
+  time: '2025-02-11T21:09:16.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1767
