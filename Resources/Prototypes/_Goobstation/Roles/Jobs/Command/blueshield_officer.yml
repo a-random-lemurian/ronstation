@@ -31,7 +31,7 @@
   canBeAntag: false
   access:
   - Security
-  - Brig
+  #- Brig # Ronstation - Brig access is removed by Delta-V.
   - External
   - Cryogenics
   - Maintenance
