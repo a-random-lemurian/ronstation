@@ -17,17 +17,17 @@
   canBeAntag: false
   access:
   - CentralCommand
-  - Brig
-  - External
-  - Cryogenics
-  - Maintenance
-  - Engineering
-  - Medical
-  - Research
+  #- Brig
+  #- External
+  #- Cryogenics
+  #- Maintenance
+  #- Engineering
+  #- Medical
+  #- Research
   - Command
   - NanotrasenRepresentative
   - Lawyer
-  - Cargo
+  #- Cargo
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
