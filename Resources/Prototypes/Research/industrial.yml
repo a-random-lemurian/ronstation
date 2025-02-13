@@ -239,6 +239,7 @@
   - ClothingBackpackSatchelHolding
   - ClothingBackpackDuffelHolding
   - MaterialSiloCircuitboard
+  - MaterialSiloLoaderCircuitboard
   softCapContribution: 1.5
 
 - type: technology
