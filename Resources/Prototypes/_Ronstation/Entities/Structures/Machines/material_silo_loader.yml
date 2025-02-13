@@ -7,7 +7,7 @@
   - type: Transform
     anchored: true
   - type: Sprite
-    sprite: Structures/Machines/material_silo_loader.rsi
+    sprite: _Ronstation/Structures/Machines/material_silo_loader.rsi
     layers:
     - state: ready
       map: ["enum.PowerDeviceVisualLayers.Powered"]
