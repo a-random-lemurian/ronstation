@@ -120,6 +120,8 @@
     idleState: icon
     runningState: building
     staticRecipes:
+    - GasMask # ronstation
+    - MaskBreath # ronstation
     - Wirecutter
     - Igniter
     - Signaller
@@ -869,6 +871,7 @@
     idleState: icon
     runningState: icon
     staticRecipes:
+      - GasMaskSecurity # ronstation
       - BoxLethalshot
       - BoxShotgunFlare
       - BoxShotgunPractice
@@ -1231,6 +1234,9 @@
     idleState: icon
     runningState: building
     staticRecipes:
+    - NeckGaiter
+    - NeckGaiterWhite # ronstation
+    - NeckGaiterRed
     - ClothingUniformJumpsuitColorGrey
     - ClothingUniformJumpskirtColorGrey
     - ClothingUniformJumpsuitBartender
