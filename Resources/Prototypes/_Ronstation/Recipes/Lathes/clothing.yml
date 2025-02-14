@@ -3,8 +3,8 @@
   result: ClothingMaskGas
   completetime: 1
   materials:
-    Steel: 50
-    Glass: 200
+    Steel: 100
+    Glass: 100
 
 - type: latheRecipe
   id: NeckGaiter
@@ -32,7 +32,6 @@
   result: ClothingMaskGasSecurity # for secfab
   completetime: 1
   materials:
-    Cloth: 200
     Steel: 100
 
 - type: latheRecipe
