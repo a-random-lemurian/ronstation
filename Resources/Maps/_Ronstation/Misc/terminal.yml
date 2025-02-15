@@ -18,7 +18,8 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: Map Entity
+      name: map 30
+    - type: ProtectedGrid
     - type: Transform
     - type: Map
       mapPaused: True
@@ -31,7 +32,8 @@ entities:
   - uid: 2
     components:
     - type: MetaData
-      name: grid
+      name: Terminal
+    - type: ProtectedGrid
     - type: Transform
       pos: -0.42746067,-0.481884
       parent: 1
@@ -70,8 +72,9 @@ entities:
       bodyType: Dynamic
     - type: Fixtures
       fixtures: {}
+    - type: BecomesStation
+      id: Empty
     - type: OccluderTree
-    - type: SpreaderGrid
     - type: Shuttle
     - type: GridPathfinding
     - type: Gravity
