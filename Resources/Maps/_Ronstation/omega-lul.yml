@@ -8069,7 +8069,7 @@ entities:
       pos: -15.5,-2.5
       parent: 4812
     - type: Door
-      secondsUntilStateChange: -15812.683
+      secondsUntilStateChange: -16944.725
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -12339,10 +12339,20 @@ entities:
       parent: 4812
 - proto: BorgCharger
   entities:
+  - uid: 926
+    components:
+    - type: Transform
+      pos: -0.5,-10.5
+      parent: 4812
   - uid: 1727
     components:
     - type: Transform
       pos: 5.5,47.5
+      parent: 4812
+  - uid: 1799
+    components:
+    - type: Transform
+      pos: -5.5,18.5
       parent: 4812
   - uid: 2492
     components:
@@ -12353,6 +12363,11 @@ entities:
     components:
     - type: Transform
       pos: 3.5,-28.5
+      parent: 4812
+  - uid: 8832
+    components:
+    - type: Transform
+      pos: -16.5,-18.5
       parent: 4812
 - proto: BoxBeanbag
   entities:
@@ -69502,8 +69517,11 @@ entities:
   - uid: 14656
     components:
     - type: Transform
-      pos: -16.5,-18.5
+      pos: -18.573652,-20.397493
       parent: 4812
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
 - proto: MedkitToxinFilled
   entities:
   - uid: 7409
@@ -71584,14 +71602,6 @@ entities:
     - type: ContainerContainer
       containers:
         stash: !type:ContainerSlot {}
-  - uid: 926
-    components:
-    - type: Transform
-      pos: -0.5,-10.5
-      parent: 4812
-    - type: ContainerContainer
-      containers:
-        stash: !type:ContainerSlot {}
   - uid: 927
     components:
     - type: Transform
@@ -71644,14 +71654,6 @@ entities:
     components:
     - type: Transform
       pos: -7.5,8.5
-      parent: 4812
-    - type: ContainerContainer
-      containers:
-        stash: !type:ContainerSlot {}
-  - uid: 1799
-    components:
-    - type: Transform
-      pos: -5.5,18.5
       parent: 4812
     - type: ContainerContainer
       containers:
@@ -83196,11 +83198,6 @@ entities:
     components:
     - type: Transform
       pos: -18.5,-23.5
-      parent: 4812
-  - uid: 8832
-    components:
-    - type: Transform
-      pos: -16.5,-18.5
       parent: 4812
   - uid: 9023
     components:
