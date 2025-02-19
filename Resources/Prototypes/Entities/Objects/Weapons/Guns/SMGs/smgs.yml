@@ -320,6 +320,13 @@
     - type: StealTarget
       stealGroup: HoSAntiqueWeapon
 
+- type: entity
+  name: Elukera's WT550
+  id: WeaponSubMachineGunWt550Elukera
+  parent: WeaponSubMachineGunWt550
+  description: A prized possession of the sector's Supreme Salvager, Elukera May, whose name is engraved on it in a beautifully flowing script font.
+
+
 
 # Rubber
 - type: entity
